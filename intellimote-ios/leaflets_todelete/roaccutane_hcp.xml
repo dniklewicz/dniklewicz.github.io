@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<leaflet>
+<product>
+<name>Roaccutane®</name>
+<details>
+Isotretinoin
+Retinoid for systemic treatment of acne
+</details>
+<id>7640128014829</id>
+<expDate>01/07/2020</expDate>
+<telwarning>Do not use if seals over carton ends are missing or broken</telwarning>
+<dosage>
+<quantity>1</quantity>
+<interval>1</interval>
+<unit>day</unit>
+</dosage>
+</product>
+<body>
+<section title="Composition" order="0" id="composition">
+<paragraph>
+Active ingredient
+</paragraph>
+<list type="bullet">
+<item>isotretinoin;</item>
+<item>13-cis retinoic acid.</item>
+</list>
+<paragraph>
+Excipients:
+</paragraph>
+<list title="Capsule filling" type="bullet">
+<item>Beeswax, yellow;</item>
+<item>Soya-bean oil, refined;</item>
+<item>Soya-bean oil, hydrogenated;</item>
+<item>Soya-bean oil, partially hydrogenated.</item>
+</list>
+<list title="Capsule shell" type="bullet">
+<item>Gelatin;</item>
+<item>Glycerol 85%;</item>
+<item>Karion 83 containing sorbitol, mannitol, hydrogenated hydrolyzed starch;</item>
+<item>Titanium dioxide (E171);</item>
+<item>Red iron oxide (E172).</item>
+</list>
+<list  title="Dry printing ink" type="bullet">
+<item>Shellac, modified;</item>
+<item>Black iron oxide (E172);</item>
+<item>Propylene glycol.</item>
+</list>
+</section>
+<section title="Properties and Effects" order="0" id="effects">
+<paragraph title="Mechanism of action">
+Isotretinoin, the active ingredient of Roaccutane, is a synthetic stereoisomer of all-trans retinoic acid (tretinoin).The exact mechanism of action of Roaccutane has not yet been elucidated in detail, but it has been established that the improvement observed in the clinical picture of severe acne is associated with suppression of sebaceous gland activity and a histologically demonstrated reduction in the size of the sebaceous glands. Furthermore, a dermal anti-inflammatory effect of isotretinoin has been established.
+</paragraph>
+<paragraph title="Efficacy">
+Hypercornification of the epithelial lining of the pilosebaceous unit leads to shedding of corneocytes into the duct and blockage by keratin and excess sebum. This is followed by formation of a comedone and, eventually, inflammatory lesions. Roaccutane inhibits proliferation of sebocytes and appears to act in acne by re-setting the orderly program of differentiation. Sebum is a major substrate for the growth of Propionibacterium acnes so that reduced sebum production inhibits bacterial colonisation of the duct.
+</paragraph>
+</section>
+<section title="Pharmacokinetics" order="0" id="pharmacokinetics">
+<paragraph>
+Since the kinetics of isotretinoin and its metabolites are linear, its plasma concentrations during therapy can be predicted from single dose data. This property also provides some evidence that the activity of hepatic drug metabolising enzymes is not induced by isotretinoin.
+</paragraph>
+<paragraph title="Absorption">
+The absorption of isotretinoin from the gastrointestinal tract is variable; the absolute bioavailability of isotretinoin has not been determined, since the compound is not available as an intravenous preparation for human use, but extrapolation from dog studies would suggest a fairly low and variable systemic bioavailability. In acne patients at steady state, peak blood concentrations (Cmax) of 310 ng/ml (range: 188-473 ng/ml) were observed 2-4 hours after dosing with 80 mg/day isotretinoin under fasting conditions. Plasma concentrations of isotretinoin are about 1.7 times those of blood concentrations due to poor penetration of isotretinoin into red blood cells. When isotretinoin is taken with food, the bioavailability is doubled relative to fasting conditions.
+</paragraph>
+<paragraph title="Distribution">
+Isotretinoin is extensively bound to plasma proteins, mainly albumin (≥99.9%); therefore the free (= pharmacologically active) fraction of isotretinoin is less than 0.1% over a wide range of therapeutic concentrations.
+The volume of distribution of isotretinoin in man is has not been determined since isotretinoin is not available as an intravenous preparation for human use.
+Steady state blood concentrations (Cmin,ss) of isotretinoin in patients with severe acne treated with 40 mg b.i.d. ranged from 120-200 ng/ml; the concentration of 4-oxo-isotretinoin in these patients were 2-5 times higher than the isotretinoin concentrations. In humans little information is available on the distribution of isotretinoin into tissue. Concentrations of isotretinoin in the epidermis are only half of those in serum.
+</paragraph>
+<paragraph title="Metabolism">
+After oral administration of isotretinoin, three major metabolites have been identified in plasma: 4-oxo-isotretinoin, tretinoin, (all-trans retinoic acid), and 4-oxo-tretinoin. The major metabolite is 4-oxo isotretinoin with plasma concentrations at steady state, that are 2.5 times higher than those of the parent compound. Other minor metabolites have been detected but are not completely identified, which also includes glucuronide conjugates. Isotretinoin metabolites have shown biological activity in several in-vitro tests. Thus the observed clinical profile in patients could be the result of the pharmacological activity of isotretinoin and its metabolites.
+Since isotretinoin and tretinoin (all-trans retinoic acid) are reversibly metabolised ( = inter-converted), the metabolism of tretinoin is linked with that of isotretinoin. It has been estimated that 20-30% of an isotretinoin dose is metabolised by isomerization. Enterohepatic circulation may play a significant role in the pharmacokinetics of isotretinoin in man. In vitro metabolism studies have demonstrated that several CYP enzymes are involved in the metabolism of isotretinoin to 4-oxo-isotretinoin and tretinoin. No single isoform appears to have a predominant role. CYP2C8, CYP2C9, CYP2B6, and possibly CYP3A4 appear to have the greatest contributions in the metabolism of isotretinoin to 4-oxoisotretinoin. CYP2C9, CYP2B6, and possibly CYP2C8, CYP3A4, CYP2A6, and CYP2E1 contribute to the metabolism of isotretinoin. CYP 26 is also known to metabolize retinoids.
+</paragraph>
+<paragraph title="Elimination">
+After oral administration of radiolabeled isotretinoin approximately equal fractions of the dose were recovered in urine and feces. Following oral administration of isotretinoin, the terminal elimination half-life of unchanged drug in patients with acne has a mean value of 19 hours. The terminal elimination half-life of 4-oxo-isotretinoin is longer, with a mean value of 29 hours. Isotretinoin is a physiological retinoid and endogenous retinoid concentrations are reached within approximately two weeks following the end of Roaccutane therapy.
+Pharmacokinetics in special populations Since isotretinoin is contraindicated in patients with hepatic impairment, limited information on the kinetics of isotretinoin is available in this patient population.
+</paragraph>
+</section>
+<section title="Indications" order="0" id="indications">
+<paragraph>
+Roaccutane is indicated for the treatment of severe forms of acne (nodulo-cystic forms) and acne, which has failed to respond to other therapies. Roaccutane should only be prescribed by physicians who are experienced in the use of systemic retinoidspreferably dermatologists- and understand the risk of teratogenicity if Roaccutane is used during pregnancy.
+</paragraph>
+</section>
+<section title="Dosage and Administration" order="0" id="dosage">
+<paragraph title="Standard dosage">
+The therapeutic response to Roaccutane and its adverse events are dose-related and varies between patients. This necessitates individual dosage adjustment during therapy. Roaccutane therapy should be started at a dose of 0.5 mg/kg daily. For most patients the dose ranges from 0.5-1.0 mg/kg per day. Patients with very severe disease or with truncal acne may require higher daily doses up to 2.0 mg/kg.
+A cumulative dose of 120 mg/kg per treatment has been documented to increase remission rates and prevent relapse. The therapy duration in individual patients therefore varies as a function of the daily dose. Complete remission of the acne is often achieved by a therapy course of 16-24 weeks. In patients who show severe intolerance to the recommended dose, treatment may be continued at a lower dose with the consequence of a longer therapy duration.
+In the majority of patients complete clearing of the acne is obtained with a single treatment course. In case of a definite relapse, a renewed course of Roaccutane therapy should be given with the same daily dose and cumulative treatment dose as previously. Since further improvement of the acne can be observed up to 8 weeks after discontinuation of treatment, retreatment should not be initiated until after this period.
+The capsules should be taken with food once or twice daily.
+</paragraph>
+<paragraph title="Special dosage instruction">
+Patients with renal impairment. In patients with severe renal insufficiency treatment should be started at a lower dose (e.g. 10 mg/day) and afterwards individually adjusted according to tolerance.
+</paragraph>
+</section>
+<section title="Contraindications" order="0" id="contraindications">
+<paragraph>
+Roaccutane is contraindicated in: pregnancy (in women who are pregnant or who may become pregnant while undergoing treatment, see section on pregnancy), hepatic insufficiency, pre-existing hypervitaminosis A, patients with excessively elevated blood lipid values, known hypersensitivity to the drug and any of its components. Roaccutane contains soya oil, partially hydrogenated soya oil, and hydrogenated soya oil. Therefore, Roaccutane is contraindicated in patients allergic to soya.
+</paragraph>
+<paragraph title="Warnings">
+It is recommended to control clinically significant serum triglyceride elevations, since levels in excess of 800 mg/dl are sometimes associated with acute pancreatitis, which is known to be potentially fatal (see Undesirable effects). Hence, Roaccutane should be discontinued if uncontrolled hypertriglyceridemia or symptoms of pancreatitis occur.
+</paragraph>
+<list title="Precautions" type="bullet">
+<item>Roaccutane should only be prescribed by physicians who are experienced in the use of systemic retinoids and understand the risk of teratogenicity associated with isotretinoin therapy. Both female and male patients should be given a copy of the Patient Information Brochure (see Pregnancy, Nursing Mothers).</item>
+<item>Donation of blood by patients should be avoided during and within 1 month after cessation of Roaccutane treatment to prevent an accidental exposure</item>
+<item>Liver function should be checked before and 1 month after the start of treatment, and subsequently at 3 months intervals. Transitory and reversible increases in liver transaminases have been reported. In many cases these changes have been within the normal range and values have returned to baseline levels during treatment. However, when transaminase levels exceed the normal levels, reduction of the dose or discontinuation of treatment may be necessary.</item>
+<item>Serum lipids (fasting value) should also be checked before and one month after the start of therapy, and also at the end of treatment. The serum lipid values usually return to normal on reduction of the dose or discontinuation of treatment. The changes in serum lipids may also resolve in response to dietary measures.</item>
+<item>Depression, psychotic symptoms and rarely suicide attempts and suicide have been reported in patients treated with Roaccutane (see Undesirable effects). Although a causal relationship has not been established, particular care needs to be taken in patients with a history of depression and all patients should be monitored for signs of depression and referred for appropriate treatment if necessary. Bone changes, including premature epiphyseal closure, have occurred after several years of administration at high doses for treating disorders of keratinization. Therefore, a careful evaluation of the risk/benefit ratio should be carried out in every patient.</item>
+<item>Myalgia and arthralgia may occur and may be associated with reduced tolerance to vigorous exercise (see Undesirable effects). Isolated instances of raised serum CPK values have been reported in patients receiving Roaccutane, particularly those undertaking vigorous physical activity.</item>
+<item>Microdosed progesterone preparations (minipills) may be an inadequate method of contraceptive during Roaccutane therapy.</item>
+<item>Aggressive dermabrasion should be avoided in patients on Roaccutane and for a period of 5-6 months after treatment because of the risk of hypertrophic scarring in atypical areas. Wax epilation should be avoided during therapy and at least for a period of 6 months thereafter due to the possibility of scarring or dermatitis.</item>
+<item>There have been post-marketing reports of severe skin reactions (e.g., erythema multiforme (EM), Stevens-Johnson syndrome (SJS), and toxic epidermal necrolysis (TEN)) associated with Roaccutane use. These events may be serious and result in death, life threatening events, hospitalization, or disability. Patients should be monitored closely for severe skin reactions and discontinuation of Roaccutane should be considered if warranted.</item>
+<item>Decreased night vision has occurred during Roaccutane therapy and in rare instances has persisted after discontinuation of therapy (see Undesirable effects). Because the onset in some patients was sudden, patients should be advised of this potential problem and warned to be cautious when driving or operating any vehicle at night. Visual problems should be carefully monitored.</item>
+<item>Dry eyes, corneal opacities, decreased night vision and keratitis usually resolve after discontinuation of therapy. Due to the possible occurrence of keratitis, patients with dry eyes should be monitored. Patients experiencing visual difficulties should be referred for an expert ophthalmological examination and withdrawal of Roaccutane considered.</item>
+<item>Rare cases of benign intracranial hypertension (pseudotumor cerebri) have been reported, some of which involved concomitant use of tetracyclines (see Interactions).</item>
+<item>Roaccutane has been associated with inflammatory bowel disease (including regional ileitis) in patients without a prior history of intestinal disorders.</item>
+<item>Patients experiencing severe (hemorrhagic) diarrhea should discontinue Roaccutane immediately.</item>
+<item>Anaphylactic reactions have been rarely reported and only after previous topical exposure to retinoids. Allergic cutaneous reactions are reported infrequently. Serious cases of allergic vasculitis, often with purpura (bruises and red patches) of the extremities and extracutaneous involvement have been reported. Severe allergic reactions necessitate interruption of therapy and careful monitoring.</item>
+</list>
+<paragraph title="Precautions for special patient groups">
+In high risk patients (with diabetes, obesity, alcoholism or disorders of lipid metabolism) undergoing treatment with Roaccutane, more frequent checks of serum values for lipids (see Warnings) and/or blood glucose may be necessary. In known or suspected diabetics, frequent determination of blood glucose levels is recommended. Elevated fasting blood sugars have been reported, and new cases of diabetes have been diagnosed during Roaccutane therapy.
+</paragraph>
+<paragraph title="Pediatric use">
+The use of Roaccutane in pediatric patients less than 12 years of age has not been studied. The use of Roaccutane for the treatment of severe recalcitrant nodular acne in pediatric patients age 12 to 17 years should be given careful consideration, especially for those patients where a known metabolic or structural bone disease exists. Clinical study has shown that Roaccutane, at a dose of 1mg/kg/day given in two divided doses, was effective in treating recalcitrant nodular acne in patients age 13 to 17 years.
+</paragraph>
+</section>
+<section title="Pregnancy, Nursing Mothers" order="0" id="pregnancy">
+<paragraph>
+Isotretinoin is highly teratogenic. There is an extremely high risk that a deformed infant will result if pregnancy occurs while taking oral isotretinoin in any amount even for short periods. Potentially all exposed fetuses can be affected. Roaccutane is contraindicated in women of childbearing potential unless the female patient meets all the following conditions:
+</paragraph>
+<list>
+<item>She must have severe acne resistant to standard therapies.</item>
+<item>She must be reliable in understanding and carrying out instructions.</item>
+<item>She must be informed by her physician of the hazards of becoming pregnant during and 1 month after treatment with Roaccutane.</item>
+<item>She must be warned of the possibility of contraception failure.</item>
+<item>She must confirm that she has understood the precautions.</item>
+<item>She must be capable of complying with the mandatory effective contraceptive measures.</item>
+<item>She must use effective contraception without any interruption for 1 month before beginning Roaccutane therapy, during therapy and for 1 month following discontinuation of therapy (see Precautions).</item>
+<item>She must have a negative result from a reliable pregnancy test within 11days prior to the start of therapy. Monthly pregnancy testing is strongly recommended.</item>
+<item>She must start Roaccutane therapy only on the 2nd or 3rd day of the next normal menstrual period.</item>
+<item>In the event of relapse treatment she must also use the same uninterrupted and effective contraceptive measures 1 month prior to, during and for 1 month after Roaccutane therapy and the same reliable pregnancy evaluations should be followed.</item>
+<item>She must fully understand the precautions and confirm her understanding and her willingness to comply with reliable contraceptive measures as explained to her.</item>
+</list>
+<paragraph>
+Even female patients who normally do not employ contraception because of a history of infertility (except in the case of hysterectomy) or who claim absence of sexual activity must be advised to use effective contraceptive measures while taking isotretinoin, following the above guidelines. In order to assist prescribing physicians and patients in avoiding fetal exposure to isotretinoin, the manufacturer provides a Pregnancy Prevention Program consisting of the following material to reinforce the warnings about the drug’s teratogenicity and emphasize the mandatory need for reliable contraception in female patients of childbearing potential:
+</paragraph>
+<list>
+<item>Patient Information Brochure.</item>
+<item>Brochure on Birth Control.</item>
+<item>Female Patient Information and Consent Form.</item>
+<item>Physician’s Guide to Prescription.</item>
+<item>Physician’s Checklist for Prescription to Females.</item>
+</list>
+<paragraph>
+The pregnancy prevention information should be given to the patients both orally and in writing. Should pregnancy occur in spite of these precautions during treatment with Roaccutane or in the month following, there is a great risk of very severe malformation of the fetus (involving in particular the central nervous system, the heart and the large blood vessels). There is also an increased risk of spontaneous abortion. If pregnancy does occur, the physician and patient should discuss the advisability of continuing the pregnancy. Major human fetal abnormalities related to Roaccutane administration have been documented, including hydrocephalus, microcephalus, abnormalities of the external ear (micropinna, small or absent external auditory canals), microphthalmia, cardiovascular abnormalities, facial dysomorphia, thymus gland abnormalities, parathyroid gland abnormalities and cerebellar malformation.
+As isotretinoin is highly lipophilic, the passage of the drug in human milk is very likely. Because of the potential for adverse effects, the use of Roaccutane should be avoided in nursing mothers.
+</paragraph>
+</section>
+</body>
+</leaflet>

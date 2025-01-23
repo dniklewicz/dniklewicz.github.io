@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<leaflet>
+<product>
+<name>AvastinTM</name>
+<details>
+Bevacizumab
+Anti-neoplastic agent
+</details>
+<id>7640128013150</id>
+<expDate>01/07/2020</expDate>
+<dosage>
+<quantity>1</quantity>
+<interval>1</interval>
+<unit>week</unit>
+</dosage>
+</product>
+<body>
+<section title="Qualitative and Quantitative Composition" order="0" id="composition">
+<paragraph title="Active ingredient">
+Bevacizumab (humanised anti-VEGF monoclonal antibody).
+</paragraph>
+<paragraph>
+Avastin is supplied in 100 mg and 400 mg preservative-free, single-use vials containing 4 ml or 16 ml of Avastin (25 mg/ml).
+Each Avastin 100 mg vial contains 100 mg of bevacizumab.
+Each Avastin 400 mg vial contains 400 mg of bevacizumab.
+</paragraph>
+</section>
+<section title="Pharmaceutical Form" order="0" id="pharmaceutical-form">
+<paragraph title="Concentrate for solution for infusion">
+Clear to slightly opalescent, colourless to pale brown, sterile liquid for intravenous (i.v.) infusion. Avastin is not formulated for intravitreal use.
+</paragraph>
+</section>
+<section title="Pharmacological Properties and Effects" order="0" id="pharmacological-properties">
+<paragraph title="Therapeutic Indications">
+Avastin in combination with fluoropyrimidine-based chemotherapy is indicated for treatment of patients with metastatic carcinoma of the colon or rectum.
+Avastin in combination with paclitaxel is indicated for the treatment of patients who have not received chemotherapy for metastatic HER2-negative breast cancer.
+Avastin in combination with capecitabine is indicated for first-line treatment of patients with HER2-negative metastatic breast cancer in whom treatment with other chemotherapy options including taxanes or anthracyclines is not considered appropriate. Patients who have received taxane and anthracycline-containing regimens in the adjuvant setting within the last 12 months should be excluded from treatment with Avastin in combination with capecitabine.
+The effectiveness of Avastin in metastatic breast cancer (mBC) is based on an improvement in progression-free survival. Currently, no data are available that demonstrate an improvement in disease-related symptoms or increased survival with Avastin in breast cancer.
+Avastin, in combination with carboplatin and paclitaxel, is indicated for first-line treatment of patients with unresectable, locally advanced, recurrent or metastatic non-squamous, non-small cell lung cancer.
+Avastin, in combination with erlotinib, is indicated for first-line treatment of patients with unresectable advanced, metastatic or recurrent non-squamous non-small cell lung cancer with Epidermal Growth Factor Receptor (EGFR) activating mutations.
+Avastin, as a single agent is indicated for the treatment of patients with glioblastoma after relapse or disease progression following prior therapy.
+The effectiveness of Avastin in glioblastoma is based on an improvement in objective response rate. There are no data demonstrating an improvement in disease-related symptoms or increased survival with Avastin. Avastin in combination with interferon alfa-2a is indicated for first-line treatment of patients with advance and/or metastatic renal cell cancer.
+Avastin, in combination with carboplatin and paclitaxel is indicated for the front-line treatment of advanced (FIGO stages III B, III C and IV) epithelial ovarian, fallopian tube, or primary peritoneal cancer. Avastin, in combination with carboplatin and gemcitabine or in combination with carboplatin and paclitaxel is indicated for the treatment of patients with recurrent, platinum-sensitive, epithelial ovarian, fallopian tube, or primary peritoneal cancer who have not received prior bevacizumab or other VEGF-targeted angiogenesis inhibitors.
+Avastin in combination with paclitaxel, topotecan or pegylated liposomal doxorubicin is indicated for the treatment of patients with recurrent, platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal cancer who received no more than two prior chemotherapy regimens and who have not received prior therapy with bevacizumab or other VEGF inhibitors or VEGF receptor-targeted agents.
+Avastin in combination with paclitaxel and cisplatin or paclitaxel and topotecan is indicated for the treatment of persistent, recurrent, or metastatic carcinoma of the cervix.
+</paragraph>
+<paragraph title="Dosage and Method of Administration">
+Substitution by any other biological medicinal product requires the consent of the prescribing physician. Avastin should be prepared by a healthcare professional using aseptic technique. Withdraw the volume of Avastin equivalent to the required dose per body weight and dilute in a total volume of 100 ml of sterile, pyrogen-free 0.9% sodium chloride. For further instructions, see section 5.4 Special Remarks. No incompatibilities between Avastin and polyvinyl chloride or polyolefin bags have been observed
+</paragraph>
+</section>
+<section title="Pharmaceutical Particulars" order="0" id="pharmaceutical-particulars">
+<list title="List of Excipients" type="bullet">
+<item>trehalose dihydrate,</item>
+<item>sodium phosphate,</item>
+<item>polysorbate,</item>
+<item>water for injections.</item>
+</list>
+<paragraph title="Incompatibilities">
+No incompatibilities between Avastin and polyvinyl chloride or polyolefin bags have been observed. A concentration‑dependent degradation profile of Avastin was observed when diluted with dextrose solutions (5%). Avastin is also incompatible with 5% bicarbonate diluent.
+</paragraph>
+<paragraph title="Stability">
+Avastin should not be used after the expiry date (EXP) shown on the pack.
+</paragraph>
+<paragraph title="Special Precautions for Storage">
+Store vials in a refrigerator at 2°C-8°C. Keep vial in the outer carton in order to protect from light. DO NOT FREEZE. DO NOT SHAKE. Avastin does not contain any antimicrobial preservative; therefore, care must be taken to ensure the sterility of the prepared solution. Chemical and physical in-use stability has been demonstrated for 48 hours at 2°C-30°C in 0.9% sodium chloride solution. From a microbiological point of view, the product should be used immediately. If not used immediately, in-use storage times and conditions are the responsibility of the user and would normally not be longer than 24 hours at 2°C to 8°C, unless dilution has taken place in controlled and validated aseptic conditions
+</paragraph>
+<paragraph title="Instructions for Use, Handling and Disposal">
+Avastin should be prepared by a healthcare professional using aseptic technique. Withdraw the necessary amount of Avastin for a dose of 5 mg/kg of body weight and dilute in a total volume of 100 ml of 0.9% sodium chloride injection. Discard any unused portion left in a vial, as the product contains no preservatives. Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration. Avastin is not formulated for intravitreal use.
+</paragraph>
+<paragraph title="Disposal of unused/expired medicines">
+The release of medicines into the environment should be minimised. Medicines should not be disposed of via wastewater and disposal through household waste should be avoided. Unused or expired medicine should be returned to a pharmacy for disposal.
+</paragraph>
+</section>
+<section title="Clinical Particulars" order="0" id="clinical-particulars">
+<list title="Therapeutic Indications" type="bullet">
+<item>Avastin in combination with fluoropyrimidine-based chemotherapy is indicated for treatment of patients with metastatic carcinoma of the colon or rectum.</item>
+<item>Avastin in combination with paclitaxel is indicated for the treatment of patients who have not received chemotherapy for metastatic HER2-negative breast cancer.</item>
+<item>Avastin in combination with capecitabine is indicated for first-line treatment of patients with HER2-negative metastatic breast cancer in whom treatment with other chemotherapy options including taxanes or anthracyclines is not considered appropriate. Patients who have received taxane and anthracycline-containing regimens in the adjuvant setting within the last 12 months should be excluded from treatment with Avastin in combination with capecitabine.</item>
+<item>The effectiveness of Avastin in metastatic breast cancer (mBC) is based on an improvement in progression-free survival. Currently, no data are available that demonstrate an improvement in disease-related symptoms or increased survival with Avastin in breast cancer.</item>
+<item>Avastin, in combination with carboplatin and paclitaxel, is indicated for first-line treatment of patients with unresectable, locally advanced, recurrent or metastatic non-squamous, non-small cell lung cancer.</item>
+<item>Avastin, in combination with erlotinib, is indicated for first-line treatment of patients with unresectable advanced, metastatic or recurrent non-squamous non-small cell lung cancer with Epidermal Growth Factor Receptor (EGFR) activating mutations.</item>
+<item>Avastin, as a single agent is indicated for the treatment of patients with glioblastoma after relapse or disease progression following prior therapy.</item>
+<item>The effectiveness of Avastin in glioblastoma is based on an improvement in objective response rate. There are no data demonstrating an improvement in disease-related symptoms or increased survival with Avastin.</item>
+<item>Avastin in combination with interferon alfa-2a is indicated for first-line treatment of patients with advance and/or metastatic renal cell cancer.</item>
+<item>Avastin, in combination with carboplatin and paclitaxel is indicated for the front-line treatment of advanced (FIGO stages III B, III C and IV) epithelial ovarian, fallopian tube, or primary peritoneal cancer.</item>
+<item>Avastin, in combination with carboplatin and gemcitabine or in combination with carboplatin and paclitaxel is indicated for the treatment of patients with recurrent, platinum-sensitive, epithelial ovarian, fallopian tube, or primary peritoneal cancer who have not received prior bevacizumab or other VEGF-targeted angiogenesis inhibitors.</item>
+<item>Avastin in combination with paclitaxel, topotecan or pegylated liposomal doxorubicin is indicated for the treatment of patients with recurrent, platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal cancer who received no more than two prior chemotherapy regimens and who have not received prior therapy with bevacizumab or other VEGF inhibitors or VEGF receptor-targeted agents.</item>
+<item>Avastin in combination with paclitaxel and cisplatin or paclitaxel and topotecan is indicated for the treatment of persistent, recurrent, or metastatic carcinoma of the cervix.</item>
+</list>
+<paragraph title="Dosage and Method of Administration">
+Substitution by any other biological medicinal product requires the consent of the prescribing physician. Avastin should be prepared by a healthcare professional using aseptic technique. Withdraw the volume of Avastin equivalent to the required dose per body weight and dilute in a total volume of 100 ml of sterile, pyrogen-free 0.9% sodium chloride. For further instructions, see section 5.4 Special Remarks. No incompatibilities between Avastin and polyvinyl chloride or polyolefin bags have been observed.
+</paragraph>
+</section>
+</body>
+</leaflet>

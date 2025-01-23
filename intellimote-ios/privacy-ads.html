@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		Intellimote: Privacy Policy
+		</title>
+		<link rel="stylesheet" href="styles.css">
+            <meta charset="UTF-8">
+            <script type = "text/javascript">  
+                window.onload = function(){  
+                var today = new Date();
+                var dd = String(today.getUTCDate()).padStart(2, '0');
+                var mm = String(today.getUTCMonth() + 1).padStart(2, '0'); //January is 0!
+                var hour = String(today.getUTCHours()).padStart(2,'0');
+                var minutes = String(today.getUTCMinutes()).padStart(2,'0');
+                var yyyy = today.getUTCFullYear().toString().substr(-2);
+
+                var appName = "Intellimote (iOS)";
+                var issueNo = '#' + yyyy + mm + dd + hour + minutes;
+
+                document.getElementById("supportEmail").href = "mailto:support@dniklewicz.com?subject=" + appName + " Support " + issueNo; 
+                }  
+        </script>
+	</head>
+	<body>
+	<div id="container">
+	<div class="top">
+		<img src="./images/appicon.png" alt="logo"/>
+		<h1>Intellimote for iOS</h1>
+	</div>
+	<div class="column left">
+		<h2><u>Privacy Policy</u></h2>
+                <h3>What data is sent to and processed by any external service?</h3>
+                <p>Intellimote is a standalone, zero-configuration application and is not connecting to any external servers. All data collected by the Application (like UPnP ip addresses and basic metadata) which is needed by Intellimote to operate and provide access to application's features (exluding advertisments) is stored locally on the user's device.
+                </p>
+                <br/>
+                <h3>Advertising in the app</h3>
+                <p>
+                Intellimote for iOS show advertisements. This might be banners, full screen ads or short videos and you can through an in-app purchase avoid advertisements to be shown.<br/>
+                The advertisements you see are provided by third party solution which is AdMob by Google®.
+                </p>
+                <br/>
+                <h3>Advertising Identifiers</h3>
+                <p>
+                Advertising identifiers are identifiers that devices, such as mobile phones, provide to identify that device to advertising partners. This identifier is used by advertisers to serve more relevant personalized advertisements in Intellimote.
+                You can opt out of receiving personalized ads on your phone, by turning off the advertising identifier on your device. The exact procedures vary from device to device but typically you can change it in the privacy section of your device preferences. Please note that you will still see advertisements if you turn off the advertising identifier, but they will not be based on your profile and may therefore be less relevant to you.
+                </p>
+                <br/>
+                <h3>Email Support</h3>
+                <p>If you email us for support or other feedback, the emails with email addressess will be retained for quality assurance purposes. The email addresses will not be used for any marketing purpose. If you want to remove your support related emails, please send this request to the support.</p>
+                <br/>
+                <h3>Changes to This Policy</h3>
+                <p>
+                You are advised to review this policy periodically for any changes. By using Intellimote app, you agree to this privacy policy.
+                </p>
+        </div>
+	<div class="column right">
+		<h2>Need help?</h2>
+		<hr/>
+		<h3><a href="mailto:support@dniklewicz.com?subject=Intellimote for iOS Support (Web Page)" id="supportEmail">Send me an Email</a></h3>
+		<p>Send me details of your issue, preferable with screenshot and any other data which can help me to deal with the problem as soon as we can.</p>
+	<div>
+	</div>
+	</body>
+</html>

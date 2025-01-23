@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Smart devices in a nutshell",
+      "createdAt": "2020-02-24 23:28",
+      "updatedAt": "2020-02-28 22:32"
+    },
+    {
+      "id": 2,
+      "title": "Multi-room and multi-zone concepts explained",
+      "createdAt": "2020-03-03 20:21",
+      "updatedAt": "2020-03-03 20:45"
+    }
+  ]
+}

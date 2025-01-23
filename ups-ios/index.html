@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		UPS Power Monitor: FAQ
+		</title>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+		.collapsible {
+			background-color: #555;
+			color: white;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+			font-weight: 500;
+		}
+
+		.active, .collapsible:hover {
+			background-color: #777;
+		}
+
+		.content {
+			padding: 0 18px;
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.2s ease-out;
+			background-color: #fff;
+			color: black;
+			font-weight: 400;
+		}
+
+		.collapsible:after {
+			content: '+'; /* Unicode character for "plus" sign (+) */
+			font-size: 15px;
+			color: #eeeeee;
+			float: right;
+			margin-left: 5px;
+		}
+
+		.active:after {
+			content: '-'; /* Unicode character for "minus" sign (-) */
+			color: #eeeeee;
+		}
+
+		#dark {
+			color: #111;
+			font-family: Avenir;
+			text-align: justify;
+		}
+
+		#prefix {
+			width: auto;
+			float: left;
+		}
+		#suffix {
+			width: 20px;
+			float: right;
+		}
+		</style>
+		<script type = "text/javascript">  
+			window.onload = function(){  
+			var today = new Date();
+			var dd = String(today.getUTCDate()).padStart(2, '0');
+			var mm = String(today.getUTCMonth() + 1).padStart(2, '0'); //January is 0!
+			var hour = String(today.getUTCHours()).padStart(2,'0');
+			var minutes = String(today.getUTCMinutes()).padStart(2,'0');
+			var yyyy = today.getUTCFullYear().toString().substr(-2);
+
+			var appName = "UPS Power Monitor (iOS)";
+			var issueNo = '#' + yyyy + mm + dd + hour + minutes;
+
+			document.getElementById("supportEmail").href = "mailto:support@dniklewicz.com?subject=" + appName + " Support " + issueNo; 
+			}  
+		</script>
+	</head>
+	<body>
+	<div id="container">
+	<div class="top">
+		<img src="./images/appicon.png" alt="logo"/>
+		<h1>UPS Power Monitor</h1>
+	</div>
+	<div class="column left">
+		<h2><b>F</b>requently <b>A</b>sked <b>Q</b>uestions</h2>
+		<hr/>
+		<h2><b>In case of any problems please check if you have the newest version of UPS Power Monitor.</b></h2>
+		<br/>
+		<!-- Foldable FAQ -->
+		<button type="button" class="collapsible">How can I use UPS connected to Synology NAS?</button>
+		<div class="content">
+			<p id="dark">
+				UPS Power Monitor application supports UPS devices connected to Synology NAS with USB cable.
+			</p>
+			<p id="dark">
+				Few steps are required in order to enable UPS network server on Sonylogy DSM:
+				<ol>
+					<li>
+						<p id="dark">Open <b>Control Panel</b></p>
+						<a href="./images/manual_1/1.png"><img src="./images/manual_1/1.png" width="100%"/></a>
+					</li>
+					<li>
+						<p id="dark">Go to <b>Hardware & Power</b></p>
+						<a href="./images/manual_1/2.png"><img src="./images/manual_1/2.png" width="100%"/></a>
+					</li>
+					<li>
+						<p id="dark">Select <b>UPS</b> tab</p>
+						<a href="./images/manual_1/3.png"><img src="./images/manual_1/3.png" width="100%"/></a>
+					</li>
+					<li>
+						<p id="dark">Select the checkmark next to <b><i>Enable network UPS server</i></b></p>
+						<a href="./images/manual_1/4.png"><img src="./images/manual_1/4.png" width="100%"/></a>
+					</li>
+					<li>
+						<p id="dark">Click on <b>Permitted Synology NAS devices</b></p>
+						<a href="./images/manual_1/5.png"><img src="./images/manual_1/5.png" width="100%"/></a>
+					</li>
+					<li>
+						<p id="dark">Enter your iPhone's IP address. Your device should have a static IP address or a DHCP reservation to work correctly in the future or you will need to change this setting in DSM every time your iOS device will have a new IP address given.</p>
+						<a href="./images/manual_1/6.png"><img src="./images/manual_1/6.png" width="100%"/></a>
+					</li>
+					<li>
+						<p id="dark">Click <b>OK</b></p>
+					</li>
+				</ol>
+			</p>
+		</div>
+	</div>
+	<div class="column right">
+		<h2>Need help?</h2>
+		<hr/>
+		<h3><a href="mailto:support@dniklewicz.com?subject=UPS Power Monitor (iOS) Support" id="supportEmail">Send me an Email</a></h3>
+		<p>Send me details of your issue, preferable with screenshot and any other data which can help me to deal with the problem as soon as we can.</p>
+	<div>
+	</div>
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				var coll2 = document.getElementsByClassName("collapsible");
+				var k;
+				for (k = 0; k < coll2.length; k++) {
+					if (coll2[k] === this) {
+						continue;
+					}
+					coll2[k].classList.remove("active");
+					coll2[k].nextElementSibling.style.maxHeight = null;
+				}
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight){
+					content.style.maxHeight = null;
+				} else {
+					content.style.maxHeight = content.scrollHeight + "px";
+				} 
+			});
+		}
+		</script>
+	</body>
+</html>

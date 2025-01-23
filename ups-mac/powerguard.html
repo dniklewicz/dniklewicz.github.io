@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		UPS Power Monitor: Power Guard
+		</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="powerguard.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type = "text/javascript">  
+			window.onload = function(){  
+			var today = new Date();
+			var dd = String(today.getUTCDate()).padStart(2, '0');
+			var mm = String(today.getUTCMonth() + 1).padStart(2, '0'); //January is 0!
+			var hour = String(today.getUTCHours()).padStart(2,'0');
+			var minutes = String(today.getUTCMinutes()).padStart(2,'0');
+			var yyyy = today.getUTCFullYear().toString().substr(-2);
+
+			var appName = "UPS Power Guard";
+			var issueNo = '#' + yyyy + mm + dd + hour + minutes;
+
+			document.getElementById("supportEmail").href = "mailto:support@dniklewicz.com?subject=" + appName + " Support " + issueNo; 
+			}  
+		</script>
+	</head>
+	<body>
+	<div id="container">
+	<div class="top">
+		<a href="index.html" target="_blank"><img src="./images/appicon.png" alt="logo"/></a>
+		<h1>UPS Power Monitor</h1>
+	</div>
+	<div class="column">
+		<h2>Power Guard (Beta)</h2>
+		<hr/>
+
+		<h3 id="macOS_12.3">⚠️ Power Server on macOS 12.3 ⚠️</h3>
+		<p>
+			In macOS 12.3 Apple removed support for Python 2 which was required by the initial version of the Power Server.
+			Unfortunately Python 3 is not enabled by default as well and it could lead to some issues. If your <b>UPS Power Monitor</b> instance cannot access <b>Power Server</b>, please try the following steps.
+		</p>
+		<p>1. Uninstall the current installation of Power Server using Terminal:</p>
+		<pre>/bin/bash -c \
+"$(curl -fsSL https://raw.githubusercontent.com/dniklewicz/UPSPowerHelper/master/uninstall_mac.sh)"</pre>
+		<p>2. Install the most recent version of the Python 3 from the <a href="https://www.python.org/ftp/python/3.10.2/python-3.10.2-macos11.pkg">official Python website</a>.</p>
+		<p>3. System restart is recommended at this point.</p>
+		<p>4. Install the current version of Power Server compatible with Python 3 (for remote client please use <a href="#remote">this command</a>) <b>without sudo</b>:</p>
+		<pre>/bin/bash -c \
+"$(curl -fsSL https://raw.githubusercontent.com/dniklewicz/UPSPowerHelper/master/install_mac_localonly.sh)"</pre>
+		<p>5. Test if the Power Server is reachable in Terminal:</p>
+		<pre>curl http://127.0.0.1:58879/info </pre>
+		<p>The output should look like this:</p>
+		<pre>{"version": "2.2", "accessibility": "localOnly"}</pre>
+		<p>6. Restart the Mac.</p>
+		<p>7. If UPS Power Monitor still cannot reach the Power Server, please try to start it manually:</p>
+		<pre>python3 ~/.upspowerhelper/upspowerhelper.py</pre>
+		<p>and then please repeat the step 5. (using another Terminal window or tab as the first one will be blocked) to check if Power Server is up and running.</p>
+		<p>8. If there were no errors when launching the server in the step above, probably additional Command Line Tools are required to run the python scripts in the background:</p>
+		<pre>xcode-select --install</pre>
+		<p>9. Repeat the steps 4 and 5</p>
+		<p>10. If the server is still unreachable, please run the following command and restart the Mac:</p>
+		<pre>sudo xcode-select --reset</pre>
+		<p>In case of further problems please <a href="mailto:support@dniklewicz.com?subject=UPS Power Guard Support" id="supportEmail">reach out to us</a> and we do our best to resolve the issue. Screenshots of the output from steps <b>4, 5 and 7</b> and command <b>python3 --version</b> will be extremely helpful!</p>
+		<br/>
+		<hr/>
+		<h3 id="intro">What is Power Guard?</h3>
+		<p>
+			<b>Power Guard</b> is a service which protects your devices and is a part of the <b>UPS Power Monitor application</b>.
+			Please note that the service is in Beta stage and in case of any issues please contact us by email via link on the bottom on this page.
+		</p>
+		<br/>
+
+		<h3>How does it work?</h3>
+		<p>
+			UPS Power Monitor requires compatible Power Server, which is an additional helper tool, in order to shutdown the Mac.
+			Such power server can be installed on the Mac running UPS Power Monitor or any other Mac in the same network.
+			Basic concept is presented on the following diagram.
+		</p>
+		<img class="center" id="diagram" src="./images/powerguard_diagram.png"/>
+		<br/>
+		<br/>
+
+		<h2>Installation</h2>
+		<hr/>
+
+		<h3>How to configure Power Guard and protect my devices?</h3>
+
+		<h3>Step 1: Install Power Server</h3>
+		<p>
+			It is very simple. On macOS, you can install a <a href="https://github.com/dniklewicz/UPSPowerHelper" target="_blank">free, open source server</a> by entering one of the following commands into Terminal.app:
+		</p>
+		<br/>
+
+		<h3>Option 1: Local access only (recommended)</h3>
+		<p>This will install the power server accessible only by the UPS Power Monitor app installed on the same Mac. 
+			With this option, you need to use <b>localhost</b> or <b>127.0.0.1</b> as an <b>IP Address</b> in Step 2.</p>
+		<pre>/bin/bash -c \
+"$(curl -fsSL https://raw.githubusercontent.com/dniklewicz/UPSPowerHelper/master/install_mac_localonly.sh)" </pre>
+		<br/>
+
+		<h3 id="remote">Option 2: Remote access from the local network (advanced)</h3>
+		<p>This will install the power server accessible only by the UPS Power Monitor applications installed on other Mac in the local network. It is recommended to configure a firewall in order to block unauthorized traffic trying to remotely shut down you Mac.</p>
+		<pre>/bin/bash -c \
+"$(curl -fsSL https://raw.githubusercontent.com/dniklewicz/UPSPowerHelper/master/install_mac_remote.sh)" </pre>
+
+		<p>
+			By default the helper tool is listening on port <b>58879</b>. Once the Power Server is installed, you can setup protection in the UPS Power Monitor app.
+			In order to do that, you need to click the UPS from the list and add your Mac's name and IP address. If both the UPS Power Monitor and the Power Server helper tool
+			operate on the same machine, <b>localhost</b> can be used instead of IP address.
+		</p>
+		<br/>
+
+		<h3>Step 2: Setup protection in UPS Power Monitor application</h3>
+		<table>
+		<tr>
+			<td>
+				<a href="images/powerguard_setup.png" target="_blank">
+					<img src="images/powerguard_setup.png" style="width: 354px;"/>
+				</a>
+			</td>
+			<td style="vertical-align: top;" width="60%">
+				<h3>Sample setup for local protection:</h3>
+				<p>1. Select UPS form the list.</p>
+				<p>2. Click <b>"Add first device"</b> button</p>
+				<p>
+					3. Provide protected device's data:
+				</p>
+				<ul>
+					<li><b>Device name</b> - friendly name you can freely choose for device.</li>
+					<li><b>IP Address</b> - you must use <b>localhost</b> or <b>127.0.0.1</b> for local protection.</li>
+					<li><b>Port</b> - Power Server's listening port. Default is <b>58879</b>.</li>
+				</ul>
+				<p>
+					4. Click <b>Save</b> button.
+				</p>
+				<p>
+					5. Wait for the green shield icon. That's it, your Mac is protected!
+				</p>
+			</td>
+		</tr>
+		</table>
+		
+		<br/>
+
+		<h3>How to uninstall Power Server?</h3>
+		<p>
+			In order to fully remove the power server, please type the following into the Terminal.app:
+		</p>
+		<pre>/bin/bash -c \
+"$(curl -fsSL https://raw.githubusercontent.com/dniklewicz/UPSPowerHelper/master/uninstall_mac.sh)"</pre>
+		<br/>
+		
+		<h3>Can I protect my Mac with just the UPS Power Monitor?</h3>
+		<p>
+			No, UPS Power Monitor is not able to shut down your Mac without using compatible Power Server helper tool.
+		</p>
+		<br/>
+
+		<hr/>
+		<h3 id="debian">Installation on Debian and SysV compatible systems. <b>(sudo required)</b></h3>
+		<p>This will install the power server accessible only by the UPS Power Monitor applications installed on Debian-compatible system in the local network. It is recommended to configure a firewall in order to block unauthorized traffic trying to remotely shut down your system.</p>
+		<pre>sudo /bin/bash -c \
+"$(curl -fsSL https://raw.githubusercontent.com/dniklewicz/UPSPowerHelper/master/debian/install_debian_remote.sh)" </pre>
+
+		<p>
+			By default the helper tool is listening on port <b>58879</b>. Once the Power Server is installed, you can setup protection in the UPS Power Monitor app.
+			In order to do that, you need to click the UPS from the list and add your device's name and IP address.
+		</p>
+		<br/>
+
+		<h3>Uninstall Power Helper on Debian and SysV compatible systems. <b>(sudo required)</b></h3>
+		<p>This will uninstall the power server from the Debian-compatible system in the local network.</p>
+		<pre>/bin/bash -c \
+"$(curl -fsSL https://raw.githubusercontent.com/dniklewicz/UPSPowerHelper/master/debian/uninstall_debian.sh)"</pre>
+		<br/>
+
+<!--
+		<h2>Troubleshooting</h2>
+		<hr/>
+		<h3>Problems with accessing /usr/local/bin</h3>
+		<p>
+			Sometimes the output from the Power Guard's installation script contains following error:
+		</p>
+		<pre>mv: rename upspowerhelper.py to /usr/local/bin/upspowerhelper.py: Permission denied</pre>
+		<p>
+			It means that there is an issue with filesystem permissions and directory <b>/usr/local/bin</b> cannot be accessed without using superuser account.
+			This is an error which can be fixed by typing a following command into the Terminal.app:
+		</p>
+		<pre>sudo chmod -R u=rwX,go=rX /usr/local/bin</pre>
+		<p>
+			More details about this problem can be found <a href="https://superuser.com/questions/717663/permission-denied-when-trying-to-cd-usr-local-bin-from-terminal" target="_blank">here</a>.
+		</p>
+-->
+	</div>
+	<div class="column">
+		<h2>Need help?</h2>
+		<hr/>
+		<h3><a href="mailto:support@dniklewicz.com?subject=UPS Power Guard Support" id="supportEmail">Send us an Email</a></h3>
+		<p>
+			Send us details of your issue, preferable with screenshot and any other data which can help us to deal with the problem as soon as we can.
+		</p>
+	<div>
+	</div>
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				var coll2 = document.getElementsByClassName("collapsible");
+				var k;
+				for (k = 0; k < coll2.length; k++) {
+					if (coll2[k] === this) {
+						continue;
+					}
+					coll2[k].classList.remove("active");
+					coll2[k].nextElementSibling.style.maxHeight = null;
+				}
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight){
+					content.style.maxHeight = null;
+				} else {
+					content.style.maxHeight = content.scrollHeight + "px";
+				} 
+			});
+		}
+		</script>
+	</body>
+</html>

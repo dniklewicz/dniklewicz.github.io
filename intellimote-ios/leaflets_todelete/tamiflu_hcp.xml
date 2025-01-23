@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<leaflet>
+    <product>
+        <name>Tamiflu® 75 mg hard capsules</name>
+        <id>7640128014867_patient</id>
+        <details>Capsules 30 mg, 45 mg, 75 mg contains the active ingredient oseltamivir</details>
+        <expDate>01/11/2027</expDate>
+        <telwarning>Do not use if seals over carton ends are missing or broken</telwarning>
+        <videos>
+            <video title="Video 1">example.com/video1</video>
+        </videos>
+        <dosage>
+            <quantity>2</quantity>
+            <interval>1</interval>
+            <unit>day</unit>
+        </dosage>
+    </product>
+    <body>
+        <section title="Qualitative &amp; Quantitative Composition" order="0" id="general">
+            <paragraph>
+                30 mg capsules, containing 39.4 mg oseltamivir phosphate equivalent to 30 mg of oseltamivir.
+                45 mg capsules, containing 59.1 mg oseltamivir phosphate equivalent to 45 mg of oseltamivir.
+                75 mg capsules, containing 98.5 mg oseltamivir phosphate equivalent to 75 mg of oseltamivir.
+                1 g of powder for oral suspension contains oseltamivir phosphate equivalent to 30 mg of oseltamivir.
+                After reconstitution, each ml of suspension contains 12 mg oseltamivir.
+                One bottle of reconstituted suspension (75 ml) contains 900 mg of active substance (oseltamivir).
+                A bottle of 30 g Tamiflu powder for oral suspension contains 25.713 g of sorbitol. One dose of 45 mg oseltamivir administered twice daily delivers 2.6 g of sorbitol.
+            </paragraph>
+        </section>
+        <section title="Pharmaceutical Form" order="1">
+            <paragraph>
+                Hard capsule
+                30 mg capsule consisting of a light yellow opaque body bearing the imprint “ROCHE” and a light yellow opaque cap bearing the imprint “30mg”. Imprints are blue.
+                45 mg capsule consisting of a grey opaque body bearing the imprint “ROCHE” and a grey opaque cap bearing the imprint “45 mg”. Imprints are blue.
+                75 mg capsule consisting of a grey opaque body bearing the imprint “ROCHE” and a light yellow opaque cap bearing the imprint “75 mg”. Imprints are blue.
+                Powder for oral suspension.
+                The powder is a granulate or clumped granulate with a white to light yellow colour.
+            </paragraph>
+        </section>
+        <section title="Clinical Particulars" order="2">
+            <paragraph>
+                Treatment of influenza
+                In patients one year of age and older who present with symptoms typical of influenza, when influenza virus is circulating in the community. Efficacy has been demonstrated when treatment is initiated within two days of first onset of symptoms. This indication is based on clinical studies of naturally occurring influenza in which the predominant infection was influenza A (see section 4.1). Based on limited pharmacokinetic and safety data, Tamiflu can be used in children 6 to 12 months of age for treatment during a pandemic influenza outbreak. The treating physician should take into account the pathogenicity of the circulating strain and the underlying condition of the patient to ensure there is a potential benefit to the child.
+                Prevention of influenza
+                - Post-exposure prevention in individuals one year of age or older following contact with a clinically diagnosed influenza case when influenza virus is circulating in the community.
+                - The appropriate use of Tamiflu for prevention of influenza should be determined on a case by case basis by the circumstances and the population requiring protection. In exceptional situations (e.g., in case of a mismatch between the circulating and vaccine virus strains, and a pandemic situation) seasonal prevention could be considered in individuals one year of age or older.
+                Tamiflu is not a substitute for influenza vaccination.
+                The use of antivirals for the treatment and prevention of influenza should be determined on the basis of official recommendations. Decisions regarding the use of antivirals for treatment and prophylaxis should take into consideration what is known about the characteristics of the circulating influenza viruses and the impact of the disease in different geographical areas and patient populations.
+            </paragraph>
+        </section>
+        <section title="Footer" order="7">
+            <paragraph>
+                Availability
+                TAMIFLU capsules are available in the following strengths: 30 mg, 45 mg and 75 mg.
+                TAMIFLU comes in blister packs containing 10 capsules.
+                What TAMIFLU looks like
+                TAMIFLU 30 mg hard gelatin capsules have a light yellow/opaque cap and a light yellow/opaque body. “ROCHE” is printed in blue ink on the light yellow body and “30 mg” is printed in blue ink on the light yellow cap.
+                TAMIFLU 45 mg hard gelatin capsules have a grey/opaque cap and a grey/opaque body. “ROCHE” is printed in blue ink on the grey body and “45 mg” is printed in blue ink on the grey cap.
+                TAMIFLU 75 mg hard gelatin capsules have a light yellow/opaque cap and a grey/opaque body.
+                “ROCHE” is printed in blue ink on the grey body and “75 mg” is printed in blue ink on the light yellow cap.
+                Current at Dec 2010.
+                Roche Singapore Pte Ltd.
+                1 Kim Seng Promenade #15-07/11
+                Great World City West Tower
+                Singapore 237994
+            </paragraph>
+        </section>
+    </body>
+</leaflet>

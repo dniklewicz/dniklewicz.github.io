@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		Papseo: Privacy Policy
+		</title>
+		<link rel="stylesheet" href="styles.css">
+		<script type = "text/javascript">  
+			window.onload = function(){  
+			var today = new Date();
+			var dd = String(today.getUTCDate()).padStart(2, '0');
+			var mm = String(today.getUTCMonth() + 1).padStart(2, '0'); //January is 0!
+			var hour = String(today.getUTCHours()).padStart(2,'0');
+			var minutes = String(today.getUTCMinutes()).padStart(2,'0');
+			var yyyy = today.getUTCFullYear().toString().substr(-2);
+
+			var appName = "Papseo";
+			var issueNo = '#' + yyyy + mm + dd + hour + minutes;
+
+			document.getElementById("supportEmail").href = "mailto:support@dniklewicz.com?subject=" + appName + " Support " + issueNo; 
+			}  
+		</script>
+	</head>
+	<body>
+	<div id="container">
+	<div class="top">
+		<img src="./images/appicon.png" alt="logo"/>
+		<h1>Papseo</h1>
+	</div>
+	<div class="column left">
+		<h2><u>Privacy Policy</u></h2>
+        <br/>
+		<h3>iCloud and CloudKit</h3>
+		<p>Papseo uses Apple CloudKit to synchronize data between your Apple devices. Your data is stored in a private database, which is encrypted with an account-based key. We do not have access to any data stored in your iCloud.
+			<br/>
+			<br/>
+			<b>Revoke access / Delete data:</b><br/>
+			You can revoke access to the iCloud and delete all your data in the Settings app on your iPhone.
+		</p>
+		<br/>
+		<h3>Email Support</h3>
+		<p>If you email us for support or other feedback, the emails with email addressess will be retained for quality assurance purposes. The email addresses will not be used for any marketing purpose. If you want to remove your support related emails, please send this request to the support.</p>
+		<br/>
+		<h3>Changes to This Policy</h3>
+		<p>You are advised to review this policy periodically for any changes. By using Papseo app, you agree to this privacy policy.</p>
+	</div>
+	<div class="column right">
+		<h2>Need help?</h2>
+		<hr/>
+		<h3><a href="mailto:support@dniklewicz.com?subject=Papseo Support" id="supportEmail">Send me an Email</a></h3>
+		<p>Send me details of your issue, preferable with screenshot and any other data which can help me to deal with the problem as soon as we can.</p>
+	<div>
+	</div>
+	</body>
+</html>

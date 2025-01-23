@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+		<title>
+		Intellimote - Smart Remote (iOS): FAQ
+		</title>
+		<link rel="stylesheet" href="styles.css">
+        <script type = "text/javascript">  
+			window.onload = function(){  
+			var today = new Date();
+			var dd = String(today.getUTCDate()).padStart(2, '0');
+			var mm = String(today.getUTCMonth() + 1).padStart(2, '0'); //January is 0!
+			var hour = String(today.getUTCHours()).padStart(2,'0');
+			var minutes = String(today.getUTCMinutes()).padStart(2,'0');
+			var yyyy = today.getUTCFullYear().toString().substr(-2);
+
+			var appName = "Intellimote (iOS)";
+			var issueNo = '#' + yyyy + mm + dd + hour + minutes;
+
+			document.getElementById("supportEmail").href = "mailto:support@dniklewicz.com?subject=" + appName + " Support " + issueNo; 
+			}  
+		</script>
+	</head>
+	<body>
+	<div id="container">
+	<div class="top">
+		<img src="./images/appicon.png" alt="logo"/>
+		<h1>Intellimote - Smart Remote (iOS)</h1>
+	</div>
+	<div class="column left">
+		<h2><b>F</b>requently <b>A</b>sked <b>Q</b>uestions</h2>
+		<hr/>
+		<h2><b>In case of any problems please check if you have the newest version of the application.</b></h2>
+        <br/>
+        <h3>I have an active Intellimote Pro subscription but additional features are locked.</h3>
+        <p>Please go to <b>Settings -> Intellimote Pro</b> and tap <b>Restore</b> button located in the upper right corner of the screen. After that, Intellimote will restore all active subscription data from the App Store.</p>
+        <br/>
+        <h3>Which smart speakers are fully compatible with Intellimote?</h3>
+        <p>All devices supporting HEOS by Denon and Yamaha MusicCast technologies are supported. Please note that <i>HEOS Enabled</i> Denon/Marantz AVRs are not fully compatible with HEOS technology and are supported only partially.</a>.</p>
+        <br/>
+		<h3>Which TV devices are fully compatible with Intellimote?</h3>
+        <p>Please look at <a href="#compatibility">this list</a>.</p>
+		<br/>
+		<h3>I cannot connect to my TV</h3>
+        <p>Open your TV's settings (usually you need to press the Home Button on your TV's remote and then select Settings) and make sure that following is set:<br/>
+        <br/>
+            • <b>Make sure your TV is connected to your local network</b><br/>
+            • <i>Settings → Network → Home Network Setup → Remote Start</i> => <b><u>On</u></b><br/>
+            • <i>Settings → Network → Home Network Setup → Remote Device / Renderer -> Remote Device / Renderer</i> => <b><u>On</u></b><br/>
+            • <i>Settings → Network → Home Network Setup → IP Control → Authentication</i> => <b><u>Normal</u></b> or <b><u>Pre-Shared Key</u></b> or <b><u>Normal and Pre-Shared Key</u></b><br/>
+            • <i>Settings → Network → Home Network Setup → IP Control → Pre-Shared Key</i> => <b><u>1111 or any other key</u></b><br/>
+            • <i>Settings → Network → Home Network Setup → IP Control → Simple IP Control</i> => <b><u>On</u></b>
+            • As a last step please restart your router
+        </p>
+		<br/>
+		<h3>Should I allow incoming connections when asked by firewall?</h3>
+		<p>Yes, <i>Remote for BRAVIA</i> requires incoming connections to automatically discover compatible devices and to receive updates when their state changes (like volume, mute, content).</p>
+        <br/>
+        <h3 id="compatibility">Compatible Smart Speakers</h3>
+        <p>Please always update your Smart Speaker software to the latest version.</p>
+        <p>
+        <h3>HEOS®:</h3><br/>
+        • All HEOS by Denon® smart speakers<br/>
+        • HEOS Enabled AVR devices<br/>
+        <i>Only HEOS related features like streaming and multi-room are supported in AV receivers. Multi-zone and power control is not supported by the app.</i><br/>
+        <br/>
+        <h3>Yamaha® MusicCast®:</h3><br/>
+        • All MusicCast® smart speakers<br/>
+        • MusicCast® Enabled AVR devices<br/>
+        <br/>
+        <h3>Compatible TV devices</h3>
+        <p>Even if your device is not listed below or you have different type of Sony device (like blu-ray player), please use free <u><a target="_blank" href="https://itunes.apple.com/us/app/intellimote-smart-tv-remote/id1403425601?mt=8">Intellimote app on iOS</a></u> to check compatibility of your TV.</p>
+        <p>Please always update your TV software to the latest version.</p>
+        <p>
+        <b>2018 Series:</b><br/>
+        <i>US/Canada/Mexico/Latin America model</i><br/>
+        • KD Series:<br/>
+        KD-43X750F, KD-49X750F, KD-49X755F, KD-49X757F, KD-55X750F, KD-55X751F, KD-55X755F, KD-55X757F, KD-65X750F,
+        KD-65X755F, KD-75X780F<br/>
+        • XBR Series:<br/>
+        XBR-49X900F, XBR-55A8F, XBR-55A9F, XBR-55X900F, XBR-55X905F, XBR-55X907F, XBR-60X830F, XBR-60X835F, XBR-65A8F, XBR-65A9F,
+        XBR-65X850F, XBR-65X851F, XBR-65X856F, XBR-65X858F, XBR-65X900F, XBR-65X905F, XBR-65X907F, XBR-65Z9F, XBR-70X830F, XBR-70X835F,
+        XBR-75X850F, XBR-75X855F, XBR-75X857F, XBR-75X900F, XBR-75X905F, XBR-75Z9F, XBR-85X850F, XBR-85X855F, XBR-85X900F, XBR-85X905F<br/>
+        <br/>
+        <i>Europe model</i><br/>
+        • KD Series:<br/>
+        KD-43XF8505, KD-49XF8505, KD-49XF9005, KD-55AF8, KD-55AF9, KD-55XF8505, KD-55XF9005, KD-60XF8305, KD-65AF8,
+        KD-65AF9, KD-65XF8505, KD-65XF9005, KD-65ZF9, KD-70XF8305, KD-75XF9005, KD-75ZF9<br/>
+        • KDL Series:<br/>
+        KDL-43WF805, KDL-49WF805<br/>
+        <br/>
+        <i>Asia model(except Japan/China)</i><br/>
+        • KD Series:<br/>
+        KD-43X7500F, KD-43X8500F, KD-49X7500F, KD-49X8500F, KD-49X9000F, KD-55A8F, KD-55A9F, KD-55X7500F, KD-55X8500F,
+        KD-60X8300F, KD-65A8F, KD-65A9F, KD-65X7500F, KD-65X8500F, KD-65X9000F, KD-65Z9F, KD-70X8300F, KD-75X7800F,
+        KD-75X8500F, KD-75X9000F, KD-75Z9F, KD-85X8500F, KD-85X9000F<br/>
+        •KDL Series:<br/>
+        KDL-43W800F, KDL-49W800F<br/>
+        <br/>
+        <b>2017 Series:</b><br/>
+        <i>US/Canada/Mexico/Latin America model</i><br/>
+        • KD Series:<br/>
+        KD-43X7500E, KD-43X8000E, KD-43X8200E, KD-43XE8005, KD-49X7500E, KD-49X8000E, KD-49X8200E, KD-49X9000E, KD-49XE8005,
+        KD-49XE9005, KD-55A1, KD-55X8000E, KD-55X8200E, KD-55X8500E, KD-55X9000E, KD-55X9300E, KD-55X9500E, KD-55XE8505,
+        KD-55XE9005, KD-55XE9305, KD-65A1, KD-65X8500E, KD-65X9000E, KD-65X9300E, KD-65X9500E, KD-65XE8505, KD-65XE9005,
+        KD-65XE9305, KD-75X8500E, KD-75X9000E, KD-75X9400E, KD-75XE9005, KD-75XE9405, KD-77A1<br/>
+        • XBR Series:<br/>
+        XBR-43X800E, XBR-49X800E, XBR-49X805E, XBR-49X807E, XBR-49X900E, XBR-55A1E, XBR-55X800E, XBR-55X805E, XBR-55X807E,
+        XBR-55X900E, XBR-55X905E, XBR-55X907E, XBR-55X930E, XBR-65A1E, XBR-65X850E, XBR-65X855E, XBR-65X857E, XBR-65X900E,
+        XBR-65X905E, XBR-65X907E, XBR-65X930E, XBR-75X850E, XBR-75X855E, XBR-75X857E, XBR-75X900E, XBR-75X905E, XBR-75X940E,
+        XBR-75X945E, XBR-75X947E, XBR-77A1E<br/>
+        • KJ Series:<br/>
+        KJ-43X8000E, KJ-49X8000E, KJ-49X9000E, KJ-55A1, KJ-55X8500E, KJ-55X9000E, KJ-55X9500E, KJ-65A1, KJ-65X8500E, KJ-65X9000E,
+        KJ-65X9500E, KJ-75X8500E, KJ-77A1<br/>
+        <br/>
+        <i>Europe model</i><br/>
+        • KD Series:<br/>
+        KD-43XE8005, KD-49XE8005, KD-49XE9005, KD-55A1, KD-55XE8505, KD-55XE9005, KD-55XE9305, KD-65A1, KD-65XE8505, KD-65XE9005,
+        KD-65XE9305, KD-75XE9005, KD-75XE9405, KD-77A1<br/>
+        <br/>
+        <i>Asia model(except Japan/China)</i>
+        • KD Series:<br/>
+        KD-43X7500E, KD-43X8000E, KD-43X8200E, KD-49X7500E, KD-49X8000E, KD-49X8200E, KD-49X9000E, KD-55A1, KD-55X8000E, KD-55X8200E,
+        KD-55X8500E, KD-55X9000E, KD-55X9300E, KD-55X9500E, KD-65A1, KD-65X8500E, KD-65X9000E, KD-65X9300E, KD-65X9500E, KD-75X8500E,
+        KD-75X9000E, KD-75X9400E, KD-77A1<br/>
+        <br/>
+        <b>2016 Series:</b><br/>
+        <i>US/Canada/Mexico/Latin America model</i><br/>
+        • KD Series: KD-49X7005D, KD-55X7005D, KD-65X7505D<br/>
+        • XBR Series: XBR-43X800D, XBR-49X700D, XBR-49X705D, XBR-49X707D, XBR-49X800D, XBR-49X835D, XBR-55X700D, XBR-55X705D, XBR-55X707D, XBR-55X850D, XBR-55X855D, XBR-55X857D, XBR-55X930D, XBR-65X750D, XBR-65X755D, XBR-65X757D, XBR-65X850D, XBR-65X855D, XBR-65X857D, XBR-65X930D, XBR-65X935D, XBR-65X937D, XBR-65Z9D, XBR-75X850D, XBR-75X855D, XBR-75X857D, XBR-75X940D, XBR-75Z9D, XBR-85X850D, XBR-85X855D, XBR-100Z9D<br/>
+        <br/>
+        <i>Europe model</i><br/>
+        • KD Series: KD-43XD8005, KD-43XD8305, KD-49XD7005, KD-49XD8005, KD-49XD8305, KD-50SD8005, KD-55SD8505, KD-55XD7005, KD-55XD8005, KD-55XD8505, KD-55XD9305, KD-65SD8505, KD-65XD7505, KD-65XD8505, KD-65XD9305, KD-65ZD9, KD-75XD8505, KD-75XD9405, KD-75ZD9, KD-85XD8505, KD-100ZD9<br/>
+        <br/>
+        <i>Asia model(except Japan/China)</i><br/>
+        • KD Series: KD-43X8000D, KD-43X8300D, KD-49X7000D, KD-49X8000D, KD-49X8300D, KD-50S8000D, KD-55S8500D, KD-55X7000D, KD-55X8500D, KD-55X9300D, KD-65S8500D, KD-65X7500D, KD-65X8500D, KD-65X9300D, KD-65Z9D, KD-75X8500D, KD-75X9400D, KD-75Z9D, KD-85X8500D, KD-100Z9D<br/>
+        <br/>
+        <i>Global</i><br/>
+        • KDL-W800D and KDL-W950D<br/>
+        • KDL-W/WD, KLV-W Series (2016 model) are <b>not compatible</b><br/>
+        <br/>
+        <b>2015 Series:</b><br/>
+        • XBR-X94xC, XBR-X93xC, XBR-X91xC, XBR-X90xC, XBR-X85xC, XBR-X83xC, XBR-X80xC, KD-X94xxC, KD-X93xxC, KD-X91xxC, KD-X90xxC, KD-X85xxC, KD-X83xxC, KD-X80xxC, KDL-W95xC, KDL-W85xC, KDL-W80xC, KDL-W75xC, KDL-W70xC, KDL-W600A<br/>
+        <br/>
+        <b>2014 Series:</b><br/>
+        • XBR-X95xB, XBR-X90xB, XBR-X85xB, KD-X95xxB, KD-X90xxB, KD-X85xxB, KD-X83xxC, KD-X80xxB, KDL-W95xB, KDL-W92xA, KDL-W90xB, KDL-W85xB, KDL-W83xB, KDL-W8xxB, KDL-W7xxB, KDL-W6xxB, KDL-W5xxA<br/>
+        <br/>
+        <b>2013 Series:</b><br/>
+        • XBR-X90xA, XBR-X85xA, KD-X900xA, KD-X850xA, KDL-W95xA, KDL-W90xA, KDL-W85xA, KDL-W80xA, KDL-W70xA, KDL-W67xA, KDL-W65xA, KDL-W60xA, KDL-S99xA<br/>
+        <!--
+        <br/>
+        <b>2012 Series:</b><br/>
+        • XBR-X90x, KD-X900x, XBR-HX95, KDL-HX95, KDL-HX85, KDL-HX75, KDL-NX65, KDL-EX75, KDL-EX65, KDL-EX55, KDL-EX54<br/>
+        <br/>
+        <b>2011 Series:</b><br/>
+        • XBR-HX92, KDL-HX92, KDL-HX82, KDL-HX72, KDL-NX72, KDL-EX72, KDL-EX62, KDL-EX52, KDL-EX42, KDL-EX32, KDL-CX52, KDL-CX40
+        -->
+        </p>
+	</div>
+	<div class="column right">
+		<h2>Need help?</h2>
+		<hr/>
+		<h3><a href="mailto:support@dniklewicz.com?subject=Intellimote for iOS Support (Web Page)" id="supportEmail">Send me an Email</a></h3>
+		<p>Send me details of your issue, preferable with screenshot and any other data which can help me to deal with the problem as soon as we can.</p>
+	<div>
+	</div>
+	</body>
+</html>

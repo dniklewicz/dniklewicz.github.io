@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<leaflet>
+<product>
+<name>Herceptin®</name>
+<details>
+Trastuzumab
+Antineoplastic agent
+</details>
+<id>7640149615173</id>
+<expDate>30/03/2020</expDate>
+<dosage>
+<quantity>1</quantity>
+<interval>1</interval>
+<unit>week</unit>
+</dosage>
+</product>
+<body>
+<section title="Description" order="0" id="description">
+<paragraph title="Therapeutic / Pharmacologic Class of Drug">
+Antineoplastic agent. ATC code: L01 XC03.
+</paragraph>
+<list title="Type of Dosage Form" type="bullet">
+<item>Intravenous (IV) formulation (Herceptin IV): Powder for concentrate for solution for infusion.</item>
+<item>Subcutaneous (SC) formulation (Herceptin SC): Solution for injection.</item>
+</list>
+<list title="Route of Administration" type="bullet">
+<item>Herceptin IV: Intravenous infusion.</item>
+<item>Herceptin SC: Solution for injection.</item>
+</list>
+<paragraph title="Sterile / Radioactive Statement">
+Sterile product.
+</paragraph>
+<paragraph title="Qualitative and Quantitative Composition">
+Active ingredient: trastuzumab.
+</paragraph>
+<list title="Herceptin IV" type="bullet">
+<item>150 mg single-dose vials, and 440 mg multidose vials containing powder for concentrate for solution for infusion. Reconstituted Herceptin concentrate contains 21 mg/ml of trastuzumab.</item>
+<item>Excipients: as registered locally.</item>
+</list>
+<list title="Herceptin SC" type="bullet">
+<item>600 mg/5 ml fixed dose vial containing solution for injection (do not reconstitute or dilute).</item>
+<item>Excipients: Herceptin SC contains recombinant human hyaluronidase (rHuPH20), an enzyme used to increase the dispersion and absorption of co-administered drugs when administered subcutaneously. All other excipients described as registered locally</item>
+</list>
+</section>
+<section title="Pharmacological Properties and Effects" order="0" id="pharmacological-properties">
+<paragraph title="Mechanism of action">
+Trastuzumab is a recombinant humanized monoclonal antibody that selectively targets the extracellular domain of the human epidermal growth factor receptor 2 protein (HER2). The antibody is an IgG1 isotype that contains human framework regions with the complementarity-determining regions of a murine anti-p185 HER2 antibody that binds to human HER2.
+The HER2 proto-oncogene or c-erbB2 encodes for a single transmembrane spanning, receptor-like protein of 185 kDa, which is structurally related to the epidermal growth factor receptor. Overexpression of HER2 is observed in 15%-20% of primary breast cancer. The overall rate of HER2 positivity in advanced gastric cancers as observed during screening for study BO18255 is 15% for IHC3+ and IHC2+/FISH+ or 22.1% when applying the broader definition of IHC3+ or FISH+. A consequence of HER2 gene amplification is an increase in HER2 protein expression on the surface of these tumour cells, which results in a constitutively activated HER2 protein.
+Studies indicate that breast cancer patients whose tumours have amplification or overexpression of HER2 have a shortened disease-free survival compared to patients whose tumours do not have amplification or overexpression of HER2. Trastuzumab has been shown, both in in-vitro assays and in animals, to inhibit the proliferation of human tumour cells that overexpress HER2. In vitro, trastuzumab-mediated antibody-dependent cell-mediated cytotoxicity (ADCC) has been shown to be preferentially exerted on HER2 overexpressing cancer cells compared with cancer cells that do not overexpress HER2.
+</paragraph>
+</section>
+<section title="Pharmaceutical Particulars" order="0" id="pharmaceutical-particulars">
+<paragraph title="Storage">
+This medicine should not be used after the expiry date (EXP) shown on the label.
+</paragraph>
+<paragraph title="Herceptin IV">
+Store vials at 2°C - 8°C.
+</paragraph>
+<paragraph title="440 mg vials (multidose vials)">
+Shelf-life of the reconstituted solution Reconstituted solutions made with bacteriostatic water for injection for the 440 mg vial of Herceptin, as supplied, are stable for 28 days when stored refrigerated at 2°C - 8°C. The reconstituted solution contains preservative and is therefore suitable for multiple use. Any remaining reconstituted solution should be discarded after 28 days.
+</paragraph>
+</section>
+<section title="Clinical Particulars" order="0" id="clinical-particulars">
+<paragraph title="Therapeutic Indications">
+<b>Herceptin IV and Herceptin SC</b>
+<b>Breast Cancer</b>
+Metastatic Breast Cancer (MBC)
+Herceptin is indicated for the treatment of patients with metastatic breast cancer who have tumors that overexpress HER2:
+</paragraph>
+<list type="numbered">
+<item>as monotherapy for the treatment of those patients who have received one or more chemotherapy regimens for their metastatic disease.</item>
+<item>in combination with paclitaxel or docetaxel for the treatment of those patients who have not received chemotherapy for their metastatic disease.</item>
+<item>in combination with an aromatase inhibitor for the treatment of patients with hormone-receptor-positive metastatic breast cancer.</item>
+</list>
+<paragraph>
+Early Breast Cancer (EBC)
+Herceptin is indicated for the treatment of patients with HER2-positive early breast cancer:
+</paragraph>
+<list type="bullet">
+<item>following surgery, chemotherapy (neoadjuvant or adjuvant) and radiotherapy (if applicable).</item>
+<item>following adjuvant chemotherapy with doxorubicin and cyclophosphamide, in combination with paclitaxel or docetaxel.</item>
+<item>in combination with adjuvant chemotherapy consisting of docetaxel and carboplatin.</item>
+<item>in combination with neoadjuvant chemotherapy followed by adjuvant Herceptin, for locally advanced (including inflammatory) breast cancer or tumours > 2 cm in diameter.</item>
+</list>
+<paragraph>
+<b>Herceptin IV only:</b>
+<b>Advanced Gastric Cancer</b>
+Herceptin in combination with capecitabine or intravenous 5-fluorouracil and a platinum agent is indicated for the treatment of patients with HER2-positive advanced adenocarcinoma of the stomach or gastro-esophageal junction who have not received prior anticancer treatment for their metastatic disease.
+</paragraph>
+<paragraph title="Dosage and Administration">
+<b>General</b>
+HER2 testing is mandatory prior to initiation of Herceptin therapy.
+Substitution by any other biological medicinal product requires the consent of the prescribing physician. Caution should be taken when no switching data are available to support interchangeability of Herceptin and a given biosimilar.
+Herceptin should be administered by a qualified healthcare professional.
+It is important to check the product labels to ensure that the correct formulation (Herceptin IV or Herceptin SC) is being administered to the patient as prescribed.
+Switching treatment between Herceptin IV and Herceptin SC and vice versa, using a three-weekly (q3w) dosing regimen, was investigated in study MO22982
+In order to prevent medication errors it is important to check the vial labels to ensure that the drug being prepared and administered is Herceptin (trastuzumab) and not Kadcyla (trastuzumab emtansine).
+<b>Herceptin IV (see section 4 Pharmaceutical Particulars):</b>
+Herceptin IV is not to be used for subcutaneous administration and should be administered as intravenous infusion.
+Do not administer as an intravenous push or bolus.
+Weekly schedule:
+The recommended initial loading dose is 4 mg/kg body weight Herceptin IV administered as a 90-minute IV infusion.
+The recommended weekly dose of Herceptin IV is 2 mg/kg body weight. If the prior dose was well tolerated, the dose can be administered as a 30-minute infusion.
+Alternative 3-weekly schedule:
+Initial Herceptin IV loading dose of 8 mg/kg body weight, followed by 6 mg/kg body weight 3 weeks later and then 6 mg/kg repeated at 3-weekly intervals administered as infusions over approximately 90 minutes. If the prior dose was well tolerated, the dose can be administered as a 30-minute infusion.
+<b>Herceptin SC (see section 4 Pharmaceutical Particulars):</b>
+Herceptin SC is not to be used for intravenous administration and must be administered as a subcutaneous injection only.
+No loading dose is required.
+The recommended fixed dose of Herceptin SC is 600 mg every three weeks irrespective of the patient’s body weight. This dose should be administered over 2-5 minutes every three weeks.
+The injection site should be alternated between the left and right thigh. New injections should be given at least 1 inch/2.5 cm from the previous site on healthy skin and never into areas where the skin is red, bruised, tender, or hard. During the treatment course with Herceptin SC other medications for SC administration should preferably be injected at different sites.
+</paragraph>
+<list title="Duration of treatment" type="bullet">
+<item>Patients with MBC should be treated with Herceptin until progression of disease or unmanageable toxicity.</item>
+<item>Patients with EBC should be treated for 1 year or until disease recurrence or unmanageable toxicity, whichever occurs first. Extending treatment in EBC beyond one year is not recommended.</item>
+<item>Patients with advanced gastric cancer should be treated with Herceptin IV until progression of disease or unmanageable toxicity.</item>
+</list>
+<paragraph>
+<b>Missed doses</b>
+Herceptin IV:
+If the patient has missed a dose of Herceptin IV by one week or less, then the usual maintenance dose (weekly regimen: 2 mg/kg; three-weekly regimen: 6 mg/kg) should be administered as soon as possible. Do not wait until the next planned cycle. Subsequent Herceptin IV maintenance doses should be administered 7 days or 21 days later according to the weekly or three-weekly schedules, respectively.
+If the patient has missed a dose of Herceptin IV by more than one week, a re-loading dose of Herceptin IV should be administered over approximately 90 minutes (weekly regimen: 4 mg/kg; 3-weekly regimen: 8 mg/kg) as soon as possible. Subsequent Herceptin IV maintenance doses (weekly regimen: 2 mg/kg; three-weekly regimen 6 mg/kg, respectively) should be administered 7 days or 21 days later according to the weekly or three-weekly schedules, respectively.
+Herceptin SC:
+If one dose of Herceptin SC is missed, it is recommended to administer the next 600 mg dose (i.e. the missed dose) as soon as possible. The interval between subsequent Herceptin SC doses should not be less than three weeks.
+<b>Dose modification</b>
+If the patient develops an infusion-related reaction (IRR), the infusion rate of Herceptin IV may be slowed or interrupted.
+No reductions in the dose of Herceptin were made during clinical trials. Patients may continue Herceptin therapy during periods of reversible, chemotherapy-induced myelosuppression, but they should be monitored carefully for complications of neutropenia during this time. The specific instructions to reduce or hold the dose of chemotherapy should be followed.
+</paragraph>
+<paragraph title="Special Dosage Instructions">
+Geriatric use
+Data suggest that the disposition of Herceptin is not altered based on age. In clinical trials, patients ≥ 65 years of age did not receive reduced doses of Herceptin.
+Pediatric use
+The safety and efficacy of Herceptin in pediatric patients &lt; 18 years of age have not been established.
+</paragraph>
+<paragraph title="Contraindications">
+Herceptin is contraindicated in patients with known hypersensitivity to trastuzumab or to any of its excipients.
+</paragraph>
+<paragraph title="Warnings and Precautions">
+<b>General</b>
+In order to improve traceability of biological medicinal products, the trade name and the batch number of the administered product should be clearly recorded (or stated) in the patient file.
+Herceptin therapy should only be initiated under supervision of a physician experienced in the treatment of cancer patients.
+<b>Infusion/Administration-related reactions (IRRs/ARRs)</b>
+IRRs/ARRs are known to occur with the administration of Herceptin IRRs/ARRs may be clinically difficult to distinguish from hypersensitivity reactions.
+Pre-medication may be used to reduce risk of occurrence of IRRs/ARRs.
+Serious IRRs/ARRs to Herceptin including dyspnoea, hypotension, wheezing, bronchospasm, tachycardia, reduced oxygen saturation and respiratory distress, supraventricular tachyarrhythmia and urticaria have been reported. Patients should be observed for IRRs/ARRs. Interruption of an IV infusion may help control such symptoms and the infusion may be resumed when symptoms abate. These symptoms can be treated with an analgesic/antipyretic such as meperidine or paracetamol, or an antihistamine such as diphenhydramine. Serious reactions have been treated successfully with supportive therapy such as oxygen, beta-agonists and corticosteroids. In rare cases, these reactions are associated with a clinical course culminating in a fatal outcome. Patients who are experiencing dyspnoea at rest due to complications of advanced malignancy or co-morbidities may be at increased risk of a fatal infusion reaction. Therefore, these patients should not be treated with Herceptin.
+<b>Pulmonary reactions</b>
+Severe pulmonary events have been reported with the use of Herceptin IV in the post-marketing setting. These events have occasionally resulted in fatal outcome and may occur as part of an IRR or with a delayed onset. In addition, cases of interstitial lung disease including lung infiltrates, acute respiratory distress syndrome, pneumonia, pneumonitis, pleural effusion, respiratory distress, acute pulmonary oedema and respiratory insufficiency have been reported.
+Risk factors associated with interstitial lung disease include prior or concomitant therapy with other anti-neoplastic therapies known to be associated with it such as taxanes, gemcitabine, vinorelbine and radiation therapy. Patients with dyspnoea at rest due to complications of advanced malignancy and co-morbidities may be at increased risk of pulmonary events. Therefore, these patients should not be treated with Herceptin.
+<b>Cardiac dysfunction</b>
+General considerations
+Patients treated with Herceptin are at increased risk of developing congestive heart failure (CHF) (New York Heart Association [NYHA] Class II-IV) or asymptomatic cardiac dysfunction. These events have been observed in patients receiving Herceptin therapy alone or in combination with taxane following anthracycline (doxorubicin or epirubicin)–containing chemotherapy. This may be moderate to severe and has been associated with death. In addition, caution should be exercised in treating patients with increased cardiac risk, e.g. hypertension, documented coronary artery disease, CHF, diastolic dysfunction, older age.
+Population pharmacokinetic model simulations indicate that trastuzumab may persist in the circulation for up to 7 months after stopping Herceptin IV or Herceptin SC treatment. Patients who receive anthracycline after stopping Herceptin may also be at increased risk of cardiac dysfunction.
+If possible, physicians should avoid anthracycline-based therapy for up to 7 months after stopping Herceptin. If anthracyclines are used, the patient’s cardiac function should be monitored carefully.
+Candidates for treatment with Herceptin, especially those with prior exposure to an anthracycline, should undergo baseline cardiac assessment including history and physical examination, electrocardiogram (ECG), and echocardiogram, or multigated acquisition scanning (MUGA). Monitoring may help to identify patients who develop cardiac dysfunction, including signs and symptoms of CHF. Cardiac assessments, as performed at baseline, should be repeated every 3 months during treatment and every 6 months following discontinuation of treatment until 24 months from the last administration of Herceptin.
+If LVEF percentage drops 10 points from baseline and to below 50%, Herceptin should be withheld and a repeat LVEF assessment performed within approximately 3 weeks. If LVEF has not improved, or has declined further, or if clinically significant CHF has developed, discontinuation of Herceptin should be strongly considered, unless the benefits for the individual patient are deemed to outweigh the risks. Patients who develop asymptomatic cardiac dysfunction may benefit from more frequent monitoring (e.g. every 6 - 8 weeks). If patients have a continued decrease in left ventricular function, but remain asymptomatic, the physician should consider discontinuing therapy unless the benefits for the individual patient are deemed to outweigh the risks.
+The safety of continuation or resumption of Herceptin in patients who experience cardiac dysfunction has not been prospectively studied. If symptomatic cardiac failure develops during Herceptin therapy, it should be treated with standard medications for heart failure (HF). In the pivotal trials, most patients who developed HF or asymptomatic cardiac dysfunction improved with standard HF treatment consisting of an angiotensin‐converting enzyme (ACE) inhibitor or angiotensin receptor blocker (ARB) and a β-blocker. The majority of patients with cardiac symptoms and evidence of a clinical benefit of Herceptin treatment continued with Herceptin without additional clinical cardiac events.
+<b>Metastatic breast cancer (MBC)</b>
+Herceptin and anthracyclines should not be given concurrently in the metastatic breast cancer setting.
+<b>Early breast cancer (EBC)</b>
+For patients with EBC, cardiac assessments, as performed at baseline, should be repeated every 3 months during treatment and every 6 months following discontinuation of treatment until 24 months from the last administration of Herceptin. In patients who receive anthracycline-containing chemotherapy, further monitoring is recommended, and should occur yearly up to 5 years from the last administration of Herceptin, or longer if a continuous decrease of LVEF is observed.
+Patients with history of myocardial infarction (MI), angina pectoris requiring medication, history of or present CHF (NYHA Class II –IV), other cardiomyopathy, cardiac arrhythmia requiring medication, clinically significant cardiac valvular disease, poorly controlled hypertension (hypertension controlled by standard medication eligible), and hemodynamic effective pericardial effusion were excluded from adjuvant breast cancer clinical trials with Herceptin.
+Adjuvant treatment
+Herceptin and anthracyclines should not be given concurrently in the adjuvant treatment setting.
+In patients with EBC an increase in the incidence of symptomatic and asymptomatic cardiac events was observed when Herceptin IV was administered after anthracycline-containing chemotherapy compared to administration with a non-anthracycline regimen of docetaxel and carboplatin. The incidence was more marked when Herceptin IV was administered concurrently with taxanes than when administered sequentially to taxanes. Regardless of the regimen used, most symptomatic cardiac events occurred within the first 18 months.
+Risk factors for a cardiac event identified in four large adjuvant studies included advanced age (> 50 years), low level of baseline and declining LVEF (&lt; 55%), low LVEF prior to or following the initiation of paclitaxel treatment, Herceptin treatment, and prior or concurrent use of anti-hypertensive medications. In patients receiving Herceptin after completion of adjuvant chemotherapy, the risk of cardiac dysfunction was associated with a higher cumulative dose of anthracycline given prior to initiation of Herceptin and a high body mass index (BMI > 25 kg/m2).
+Neoadjuvant-adjuvant treatment
+In patients with EBC eligible for neoadjuvant-adjuvant treatment, Herceptin concurrently with anthracyclines should be used with caution and only in chemotherapy-naive patients. The maximum cumulative doses of the low-dose anthracycline regimens should not exceed 180 mg/m2 (doxorubicin) or 360 mg/m2 (epirubicin).
+If patients have been treated concurrently with low-dose anthracyclines and Herceptin in the neoadjuvant setting, no additional cytotoxic chemotherapy should be given after surgery.
+Clinical experience in the neoadjuvant-adjuvant setting is limited in patients above 65 years of age.
+<b>Benzyl alcohol</b>
+Benzyl alcohol, used as a preservative in bacteriostatic water for injection in the 440 mg multidose vial, has been associated with toxicity in neonates and children up to 3 years old. When administering Herceptin to a patient with a known hypersensitivity to benzyl alcohol, Herceptin should be reconstituted with water for injection, and only one dose per Herceptin vial should be used. Any unused portion must be discarded. Sterile water for injection, used to reconstitute the 60 mg and 150 mg single dose vials, does not contain benzyl alcohol.
+</paragraph>
+<paragraph title="Drug Abuse and Dependence">
+No data to report.
+</paragraph>
+<paragraph title="Ability to Drive and Use Machines">
+No studies on the effects on the ability to drive and to use machines have been performed. Patients experiencing infusion-related symptoms should be advised not to drive or use machines until symptoms resolve completely.
+</paragraph>
+<paragraph title="Use in Special Populations">
+<b>Females and Males of Reproductive Potential</b>
+Fertility
+It is not known whether Herceptin can affect reproductive capacity. Animal reproduction studies revealed no evidence of impaired fertility or harm to the foetus.
+Contraception
+Women of childbearing potential should be advised to use effective contraception during treatment with Herceptin IV or Herceptin SC formulation and for 7 months after treatment has concluded.
+<b>Pregnancy</b>
+Herceptin should be avoided during pregnancy unless the potential benefit for the mother outweighs the potential risk to the foetus. In the post-marketing setting, cases of foetal renal growth and/or function impairment in association with oligohydramnios, some associated with fatal pulmonary hypoplasia of the fetus, have been reported in pregnant women receiving Herceptin.
+Women who become pregnant should be advised of the possibility of harm to the foetus. If a pregnant woman is treated with Herceptin, or if a patient becomes pregnant while receiving Herceptin or within 7 months following last dose of Herceptin, close monitoring by a multidisciplinary team is desirable.
+Labour and Delivery
+No data to report.
+<b>Lactation</b>
+It is not known whether trastuzumab is secreted in human milk. As human IgG is secreted into human milk, and the potential for harm to the infant is unknown, breast-feeding should be avoided during Herceptin therapy.
+<b>Pediatric Use</b>
+The safety and efficacy of Herceptin in paediatric patients below the age of 18 have not been established.
+<b>Geriatric Use</b>
+Data suggest that the disposition of Herceptin is not altered based on age.
+<b>Renal Impairment</b>
+In a population pharmacokinetic analysis, renal impairment was shown not to affect trastuzumab disposition.
+<b>Hepatic Impairment</b>
+No data to report.
+</paragraph>
+<paragraph title="Undesirable Effects">
+<b>Clinical Trials</b>
+Table 1 summarizes the adverse drug reactions (ADRs) that have been reported in association with the use of Herceptin alone or in combination with chemotherapy in pivotal clinical trials. All the terms included are based on the highest percentage seen in pivotal clinical trials.
+As Herceptin is commonly used with other chemotherapeutic agents and radiotherapy it is often difficult to ascertain the causal relationship of an adverse event to a particular drug/radiotherapy.
+The corresponding frequency category for each adverse drug reaction is based on the following convention: very common (≥ 1/10), common (≥ 1/100 to &lt; 1/10), uncommon (≥1/1,000 to &lt;1/100), rare (≥ 1/10,000 to &lt; 1/1,000), very rare (&lt; 1/10,000), not known (cannot be estimated from the available data). Within each frequency grouping, adverse reactions should be presented in order of decreasing seriousness.
+</paragraph>
+<table title="Table 1: Summary of Adverse Drug Reactions Occurring in Patients Treated with Herceptin in Clinical Trials">
+<tr>
+<th>System organ class</th>
+<th>Adverse reaction*</th>
+<th>Frequency</th>
+</tr>
+<tr>
+<td rowspan="8">Infections and infestations</td>
+<td>Nasopharyngitis</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Infection</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Influenza</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Pharyngitis</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Sinusitis</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Rhinitis</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Upper respiratory tract infection</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Urinary tract infection</td>
+<td>Common</td>
+</tr>
+<tr>
+<td rowspan="5">Blood and lymphatic system disorders</td>
+<td>Anaemia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Thrombocytopenia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Febrile neutropenia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>White blood cell count decreased/leukopenia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Neutropenia</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Immune system disorders</td>
+<td>Hypersensitivity</td>
+<td>Common</td>
+</tr>
+<tr>
+<td rowspan="3">Metabolism and nutrition disorders</td>
+<td>Weight decreased</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Weight increased</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Decreased appetite</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td rowspan="3">Psychiatric disorders</td>
+<td>Psychiatric disorders</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Depression</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Anxiety</td>
+<td>Common</td>
+</tr>
+<tr>
+<td rowspan="8">Nervous system disorders</td>
+<td>Dizziness</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Headache</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Paraesthesia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Hypoaesthesia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Dysgeusia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Hypertonia</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Peripheral neuropathy</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Somnolence</td>
+<td>Common</td>
+</tr>
+<tr>
+<td rowspan="2">Eye disorders</td>
+<td>Lacrimation increased</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Conjunctivitis</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Ear and labyrinth disorders</td>
+<td>Deafness</td>
+<td>Uncommon</td>
+</tr>
+<tr>
+<td rowspan="5">Cardiac disorders</td>
+<td>Ejection fraction decreased</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Cardiac failure (congestive)</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Cardiomyopathy</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Supraventricular tachyarrhythmia</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Palpitation</td>
+<td>Common</td>
+</tr>
+<tr>
+<td rowspan="5">Vascular disorders</td>
+<td>Lymphoedema</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Hot flush</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Hypotension</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Hypertension</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Vasodilation</td>
+<td>Common</td>
+</tr>
+<tr>
+<td rowspan="11">Respiratory, thoracic and mediastinal disorders</td>
+<td>Dyspnoea</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Epistaxis</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Oropharyngeal pain</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Cough</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Rhinorrhoea</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Asthma</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Lung disorder</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Pleural effusion</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Pneumonia</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Pneumonitis</td>
+<td>Uncommon</td>
+</tr>
+<tr>
+<td>Wheezing</td>
+<td>Uncommon</td>
+</tr>
+<tr>
+<td rowspan="7">Gastrointestinal disorders</td>
+<td>Diarrhoea</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Vomiting</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Nausea</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Abdominal pain</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Dyspepsia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Constipation</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Stomatitis</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Hepatobiliary disorders</td>
+<td>Hepatocellular injury</td>
+<td>Common</td>
+</tr>
+<tr>
+<td></td>
+<td>Jaundice</td>
+<td>Rare</td>
+</tr>
+<tr>
+<td rowspan="13">Skin and subcutaneous tissue disorders</td>
+<td>Erythema</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Rash</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Alopecia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Palmar-plantar erythrodysaesthesia syndrome</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Nail disorder</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Acne</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Dermatitis</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Dry skin</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Hyperhydrosis</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Maculopapular rash</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Pruritus</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Onychoclasis</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Urticaria</td>
+<td>Uncommon</td>
+</tr>
+<tr>
+<td rowspan="8">Musculoskeletal and connective tissue disorders</td>
+<td>Arthralgia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Myalgia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Arthritis</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Back pain</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Bone pain</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Muscle spasms</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Neck pain</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Pain in extremity</td>
+<td>Common</td>
+</tr>
+<tr>
+<td rowspan="13">General disorders and administration site conditions</td>
+<td>Asthenia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Chest pain</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Chills</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Fatigue</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Influenza-like illness</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Infusion/Administration-related reaction</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Pain</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Pyrexia</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Peripheral oedema</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Mucosal inflammation</td>
+<td>Very common</td>
+</tr>
+<tr>
+<td>Oedema</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Injection site pain</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Malaise</td>
+<td>Common</td>
+</tr>
+<tr>
+<td>Injury, poisoning and procedural complications</td>
+<td>Nail toxicity</td>
+<td>Very common</td>
+</tr>
+</table>
+<paragraph>
+<b>Additional information for selected adverse drug reactions</b>
+<b>Infusion/Administration‐related reactions (IRRs/ARRs) and hypersensitivity</b>
+IRRs/ARRs such as chills and/or fever, dyspnoea, hypotension, wheezing, bronchospasm, tachycardia, reduced oxygen saturation and respiratory distress were seen in all trastuzumab clinical trials and for the IV and the SC formulation.
+IRRs/ARRs may be clinically difficult to distinguish from hypersensitivity reactions.
+The rate of IRRs/ARRs of all grades varied between studies depending on the indication, whether trastuzumab was given concurrently with chemotherapy or as monotherapy and data collection methodology.
+In MBC, the rate of IRRs ranged from 49% to 54% in the trastuzumab- containing arm compared to 36% to 58% in the comparator arm (which may have contained other chemotherapy). Severe (grade 3 and above) ranged from 5% to 7% in the trastuzumab-containing arm compared to 5 to 6% in the comparator arm.
+In EBC, the rate of IRRs/ARRs ranged from 18% to 54% in the trastuzumab- containing arm compared to 6% to 50% in the comparator arm (which may have contained other chemotherapy). Severe (grade 3 and above) ranged from 0.5% to 6% in the trastuzumab-containing arm compared to 0.3 to 5% in the comparator arm.
+In the neoadjuvant-adjuvant EBC treatment setting (BO22227), the rates of IRRs/ARRs were in line with the above and were 37.2% in the Herceptin IV arm to 47.8% in the Herceptin SC arm. Severe (grade 3) IRRs/ARRs were 2.0% and 1.7% in the Herceptin IV and Herceptin SC arms, respectively during the treatment phase. There were no grade 4 or 5 IRRs/ARRs.
+Anaphylactoid reactions were observed in isolated cases.
+<b>Cardiac dysfunction</b>
+Congestive heart failure (NYHA Class II-IV) is a common adverse reaction to Herceptin. It has been associated with fatal outcome. Signs and symptoms of cardiac dysfunction such as dyspnoea, orthopnoea, increased cough, pulmonary oedema, S3 gallop, or reduced ventricular ejection fraction, have been observed in patients treated with Herceptin.
+<b>Metastatic Breast Cancer</b>
+Depending on the criteria used to define cardiac dysfunction, the incidence in the pivotal metastatic trials varied between 9% and 12% in the Herceptin + paclitaxel group, compared with 1% – 4% in the paclitaxel-alone group. For Herceptin monotherapy, the rate was 6% – 9%. The highest rate of cardiac dysfunction was seen in patients receiving concurrent Herceptin + anthracycline/cyclophosphamide (27%), and was significantly higher than in the anthracycline/cyclophosphamide alone subgroup (7% – 10%). In a subsequent trial with prospective monitoring of cardiac function, the incidence of symptomatic heart failure was 2.2% in patients receiving Herceptin and docetaxel, compared with 0% in patients receiving docetaxel alone. Most of the patients (79%) who developed cardiac dysfunction in these trials experienced an improvement after receiving standard treatment for CHF.
+<b>Early Breast Cancer (adjuvant setting)</b>
+In three pivotal clinical trials of adjuvant trastuzumab given in combination with chemotherapy the incidence of grade 3/4 cardiac dysfunction (symptomatic CHF) was similar in patients who were administered chemotherapy alone and in patients who were administered Herceptin sequentially after a taxane (0.3 - 0.4%). The rate was highest in patients who were administered Herceptin concurrently with a taxane (2.0%). At 3 years, the cardiac event rate in patients receiving AC→P (doxorubicin plus cyclophosphamide followed by paclitaxel) + H (trastuzumab) was estimated at 3.2%, compared with 0.8% in AC→P treated patients. No increase in the cumulative incidence of cardiac events was seen with further follow-up at 5 years.
+At 5.5 years, the rates of symptomatic cardiac or LVEF events were 1.0%, 2.3%, and 1.1% in the AC→D (doxorubicin plus cyclophosphamide, followed by docetaxel), AC→DH (doxorubicin plus cyclophosphamide, followed by docetaxel plus trastuzumab), and DCarbH (docetaxel, carboplatin and trastuzumab) treatment arms, respectively. For symptomatic CHF (NCI-CTC Grade 3 - 4), the 5-year rates were 0.6%, 1.9%, and 0.4% in the AC→D, AC→DH, and DCarbH treatment arms, respectively. The overall risk of developing symptomatic cardiac events was low and similar for patients in the AC→D and DCarbH arms; relative to both the AC→D and DCarbH arms there was an increased risk of developing a symptomatic cardiac event for patients in the AC→DH arm, being discernable by a continuous increase in the cumulative rate of symptomatic cardiac or LVEF events up to 2.3% compared to approximately 1% in the two comparator arms (AC→D and DCarbH).
+When Herceptin was administered after completion of adjuvant chemotherapy NYHA Class III-IV heart failure was observed in 0.6% of patients in the one-year arm after a median follow-up of 12 months. After a median follow-up of 3.6 years the incidence of severe CHF and left ventricular dysfunction after 1 year Herceptin therapy remained low at 0.8% and 9.8%, respectively.
+In study BO16348, after a median follow-up of 8 years the incidence of severe CHF (NYHA Class III-IV) in the Herceptin 1 year treatment arm was 0.8%, and the rate of mild symptomatic and asymptomatic left ventricular dysfunction was 4.6%.
+Reversibility of severe CHF (defined as a sequence of at least two consecutive LVEF values ≥ 50% after the event) was evident for 71.4% of Herceptin-treated patients. Reversibility of mild symptomatic and asymptomatic left ventricular dysfunction was demonstrated for 79.5% of patients Approximately 17% of cardiac dysfunction related events occurred after completion of Herceptin.
+In the joint analysis of studies NSABP B-31 and NCCTG N9831, with a median follow-up of 8.1 years for the AC→PH group (doxorubicin plus cyclophosphamide, followed by paclitaxel plus trastuzumab), the per-patient incidence of new onset cardiac dysfunction, as determined by LVEF, remained unchanged compared to the analysis performed at a median follow-up of 2.0 years in the AC→PH group: 18.5% of AC→PH patients with an LVEF decrease of ≥10% to below 50%. Reversibility of left ventricular dysfunction was reported in 64.5% of patients who experienced a symptomatic CHF in the AC→PH group being asymptomatic at latest follow-up, and 90.3% having full or partial LVEF recovery.
+<b>Early Breast Cancer (neoadjuvant-adjuvant setting)</b>
+In the pivotal trial MO16432, Herceptin was administered concurrently with neoadjuvant chemotherapy containing three cycles of doxorubicin (cumulative dose 180 mg/m2 ). The incidence of symptomatic cardiac dysfunction was 1.7% in the Herceptin arm.
+In the pivotal trial BO22227, Herceptin was administered concurrently with neoadjuvant chemotherapy that contained four cycles of epirubicin (cumulative dose 300 mg/m2); at a median follow-up exceeding 70 months the incidence of cardiac failure / congestive cardiac failure was 0.3% in the Herceptin IV arm and 0.7% in the Herceptin SC arm. In patients with lower body weights (&lt;59 kg, the lowest body weight quartile) the fixed dose used in the Herceptin SC arm was not associated with an increased risk of cardiac events or significant drop in LVEF.
+<b>Advanced Gastric Cancer</b>
+In the BO18255 study, at screening, the median LVEF value was 64% (range 48%‐90%) in the fluoropyrimidine/cisplatin arm (FP) and 65% (range 50%‐86%) in the Herceptin IV plus fluoropyrimidine/cisplatin arm (H+FP). The majority of the LVEF decreases noted in BO18255 study were asymptomatic, with the exception of one patient in the Herceptin-containing arm whose LVEF decrease coincided with cardiac failure.
+</paragraph>
+<table title="Table 2: Summary of LVEF Change from Baseline (BO18255 study)">
+<tr>
+<th>LVEF Decrease: Lowest Post-screening Value</th>
+<th>Fluoropyrimidine/cisplatin (N = 290) (% of patients in each treatment arm)</th>
+<th>Trastuzumab/fluoropyrimidine/cisplatin (N = 294) (% of patients in each treatment arm)</th>
+</tr>
+<tr>
+<td>*LVEF decrease of ≥ 10% to a value of &lt; 50%</td>
+<td>1.1%</td>
+<td>4.6%</td>
+</tr>
+<tr>
+<td>Absolute value &lt; 50%</td>
+<td>1.1%</td>
+<td>5.9%</td>
+</tr>
+<tr>
+<td>*LVEF decrease of ≥ 10% to a value of ≥ 50%</td>
+<td>11.8%</td>
+<td>16.5%</td>
+</tr>
+</table>
+<table title="Table 3: Cardiac Adverse Events (BO18255 study)">
+<tr>
+<th></th>
+<th>Fluoropyrimidine/cisplatin (N = 290) (% of patients in each treatment arm)</th>
+<th>Trastuzumab/fluoropyrimidine/cisplatin (N = 294) (% of patients in each treatment arm)</th>
+</tr>
+<tr>
+<td>Total cardiac events</td>
+<td>6%</td>
+<td>6%</td>
+</tr>
+<tr>
+<td>≥ Grade 3 NCI CTCAE v3.0</td>
+<td>*3%</td>
+<td>**1%</td>
+</tr>
+</table>
+<paragraph>
+Overall, there were no significant differences in cardiac dysfunction between the treatment arm and the comparator arm.
+<b>Haematological toxicity</b>
+<b>Breast Cancer</b>
+Haematological toxicity is infrequent following the administration of Herceptin IV monotherapy in the metastatic setting, WHO Grade 3 leukopenia, thrombocytopenia and anaemia occurring in &lt; 1% of patients. No WHO Grade 4 toxicities were observed. There was an increase in WHO Grade 3 or 4 haematological toxicity in patients treated with the combination of Herceptin and paclitaxel compared with patients receiving paclitaxel alone (34% versus 21%). Haematological toxicity was also increased in patients receiving Herceptin and docetaxel, compared with docetaxel alone (32% Grade 3/4 neutropenia versus 22%, using NCI-CTC criteria). The incidence of febrile neutropenia/neutropenic sepsis was also increased in patients treated with Herceptin + docetaxel (23% versus 17% for patients treated with docetaxel alone).
+Using NCI-CTC criteria, in the BO16348 study, 0.4% of Herceptin-treated patients experienced a shift of 3 or 4 grades from baseline, compared with 0.6% in the observation arm.
+<b>Advanced Gastric Cancer</b>
+The most frequently reported AEs, of Grade ≥ 3 occurring with an incidence rate of at least 1% by trial treatment, that were categorized under the Blood and Lymphatic System Disorders SOC are shown below:
+</paragraph>
+<table title="Table 4: Frequently Reported AEs grade ≥ 3 in Blood and Lymphatic System Disorders SOC">
+<tr>
+<th></th>
+<th>Fluoropyrimidine/ Cisplatin (N = 290) (% of patients in each treatment arm)</th>
+<th>Trastuzumab/Fluoropyrimidine/Cisplatin (N = 294) (% of patients in each treatment arm)</th>
+</tr>
+<tr>
+<td>Neutropenia</td>
+<td>30%</td>
+<td>27%</td>
+</tr>
+<tr>
+<td>Anaemia</td>
+<td>10%</td>
+<td>12%</td>
+</tr>
+<tr>
+<td>Febrile neutropenia</td>
+<td>3%</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>Thrombocytopenia</td>
+<td>3%</td>
+<td>5%</td>
+</tr>
+</table>
+<paragraph>
+The total percentage of patients who experienced an AE of ≥ Grade 3 NCI-CTCAE v3.0 that has been categorized under this SOC was 38% in the FP arm and 40% in the FP + H arm.
+Overall, there were no significant differences in haematotoxicity between the treatment arm and the comparator arm.
+<b>Hepatic and renal toxicity</b>
+<b>Breast Cancer</b>
+WHO Grade 3 or 4 hepatic toxicity was observed in 12% of patients following administration of Herceptin IV as single agent, in the metastatic setting. This toxicity was associated with progression of disease in the liver in 60% of these patients.
+WHO Grade 3 or 4 hepatic toxicity was less frequently observed among patients receiving Herceptin IV and paclitaxel than among patients receiving paclitaxel alone (7% compared with 15%). No WHO Grade 3 or 4 renal toxicity was observed.
+<b>Advanced Gastric Cancer</b>
+In the BO18255 study no significant differences in hepatic and renal toxicity were observed between the two treatment arms.
+NCI-CTCAE (version 3.0) Grade ≥3 renal toxicity was not significantly higher in patients receiving Herceptin IV than those in the F+P arm (3% and 2% respectively).
+NCI-CTCAE (version 3.0) Grade ≥ 3 adverse event in the Hepatobiliary Disorders SOC: Hyperbilirubinaemia was the only reported AE and was not significantly higher in patients receiving Herceptin IV than those in the F+P arm (1% and &lt; 1% respectively).
+<b>Diarrhoea</b>
+<b>Breast Cancer</b>
+Of patients treated with Herceptin IV monotherapy in the metastatic setting 27% experienced diarrhoea. An increase in the incidence of diarrhoea, primarily mild to moderate in severity, has also been observed in patients receiving Herceptin in combination with paclitaxel compared with patients receiving paclitaxel alone.
+In the BO16348 study, 8% of Herceptin-treated patients experienced diarrhoea during the first year of treatment.
+<b>Advanced Gastric Cancer</b>
+In the BO18255 study, 109 patients (37%) participating in the Herceptin-containing treatment arm versus 80 patients (28%) in the comparator arm experienced any grade diarrhoea. Using NCI-CTCAE v3.0 severity criteria, the percentage of patients experiencing Grade ≥ 3 diarrhoea was 4% in the FP arm versus 9% in the FP+H arm.
+<b>Infection</b>
+An increased incidence of infections, primarily mild upper respiratory infections of minor clinical significance or catheter infections, has been observed in patients treated with Herceptin.
+<b>Switching treatment from Herceptin IV to Herceptin SC and vice versa</b>
+Study MO22982 investigated switching from Herceptin IV to Herceptin SC, and vice versa, in patients with HER2-positive EBC, with a primary objective to evaluate patient preference for either Herceptin IV infusion or Herceptin SC injection. In this trial, 2 cohorts (one using Herceptin SC vial and one using Herceptin SC SID) were investigated using a 2-arm, cross-over design with patients being randomized to one of two different q3w Herceptin treatment sequences (Herceptin IV (Cycles 1-4)→ Herceptin SC (Cycles 5-8), or Herceptin SC (Cycles 1-4)→ Herceptin IV (Cycles 5-8)). Patients were either naïve to Herceptin IV treatment (20.3%) or pre-exposed to Herceptin IV (79.7%) as part of ongoing adjuvant treatment for HER2-positive EBC. Overall, switches from Herceptin IV to Herceptin SC and vice versa were well tolerated. Pre-switch rates (Cycles 1-4) for SAEs, Grade 3 AEs and treatment discontinuations due to AEs were low (&lt;5%) and similar to post-switch rates (Cycles 5-8). No Grade 4 or Grade 5 AEs were reported.
+<b>Herceptin SC safety and tolerability in EBC patients</b>
+Study MO28048 investigating the safety and tolerability of Herceptin SC as adjuvant therapy enrolled HER2 positive EBC patients in either a Herceptin SC vial cohort (N=1868 patients, including 20 patients receiving neoadjuvant therapy) or a Herceptin SC SID cohort (N=710 patients, including 21 patients receiving neoadjuvant therapy). The primary analysis included patients with a median follow-up of up to 23.7 months. No new safety signals were observed results were consistent with the known safety profile for Herceptin IV and Herceptin SC. In addition, treatment of lower body weight patients with Herceptin SC fixed dose in adjuvant EBC was not associated with increased safety risk, AEs and SAEs, compared to the higher body weight patients. The final results of study BO22227 at a median follow-up exceeding 70 months were also consistent with the known safety profile.
+</paragraph>
+<paragraph title="Postmarketing">
+The following adverse drug reactions have been identified from postmarketing experience with Herceptin.
+</paragraph>
+<table title="Table 5: Adverse Reactions Reported in the Post-marketing Setting">
+<tr>
+<th>System organ class</th>
+<th>Adverse reaction</th>
+</tr>
+<tr>
+<td rowspan="2">Blood and lymphatic system disorders</td>
+<td>Hypoprothrombinemia</td>
+</tr>
+<tr>
+<td>Immune thrombocytopenia</td>
+</tr>
+<tr>
+<td>Immune system disorders</td>
+<td>Anaphylactoid reaction</td>
+</tr>
+<tr>
+<td>Eye disorders</td>
+<td>Madarosis</td>
+</tr>
+<tr>
+<td rowspan="2">Cardiac disorders</td>
+<td>Cardiogenic shock</td>
+</tr>
+<tr>
+<td>Tachycardia</td>
+</tr>
+<tr>
+<td rowspan="10">Respiratory, thoracic and mediastinal disorders</td>
+<td>Bronchospasm</td>
+</tr>
+<tr>
+<td>Oxygen saturation decreased</td>
+</tr>
+<tr>
+<td>Respiratory failure</td>
+</tr>
+<tr>
+<td>Interstitial lung disease</td>
+</tr>
+<tr>
+<td>Lung infiltration</td>
+</tr>
+<tr>
+<td>Acute respiratory distress syndrome</td>
+</tr>
+<tr>
+<td>Respiratory distress</td>
+</tr>
+<tr>
+<td>Pulmonary fibrosis</td>
+</tr>
+<tr>
+<td>Hypoxia</td>
+</tr>
+<tr>
+<td>Laryngeal oedema</td>
+</tr>
+<tr>
+<td rowspan="2">Renal and urinary disorders</td>
+<td>Glomerulonephropathy</td>
+</tr>
+<tr>
+<td>Renal failure</td>
+</tr>
+<tr>
+<td rowspan="3">Pregnancy, puerperium and perinatal conditions</td>
+<td>Pulmonary hypoplasia</td>
+</tr>
+<tr>
+<td>Renal hypoplasia</td>
+</tr>
+<tr>
+<td>Oligohydramnios</td>
+</tr>
+</table>
+</section>
+</body>
+</leaflet>

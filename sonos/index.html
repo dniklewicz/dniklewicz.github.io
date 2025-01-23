@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		Remote for Sonos: FAQ
+		</title>
+		<link rel="stylesheet" href="styles.css">
+		<script type = "text/javascript">  
+			window.onload = function(){  
+			var today = new Date();
+			var dd = String(today.getUTCDate()).padStart(2, '0');
+			var mm = String(today.getUTCMonth() + 1).padStart(2, '0'); //January is 0!
+			var hour = String(today.getUTCHours()).padStart(2,'0');
+			var minutes = String(today.getUTCMinutes()).padStart(2,'0');
+			var yyyy = today.getUTCFullYear().toString().substr(-2);
+
+			var appName = "Remote for Sonos (macOS)";
+			var issueNo = '#' + yyyy + mm + dd + hour + minutes;
+
+			document.getElementById("supportEmail").href = "mailto:support@dniklewicz.com?subject=" + appName + " Support " + issueNo; 
+			}  
+		</script>
+	</head>
+	<body>
+	<div id="container">
+	<div class="top">
+		<img src="./images/appicon.png" alt="logo"/>
+		<h1>Remote for Sonos</h1>
+	</div>
+	<div class="column left">
+		<h2><b>F</b>requently <b>A</b>sked <b>Q</b>uestions</h2>
+		<hr/>
+		<h2><b>In case of any problems please check if you have the newest version of Remote for Sonos.</b></h2>
+        <br/>
+		<h3>How can I group my speakers?</h3>
+		<p>Speakers can be grouped together by simpy dragging one player on top of another. You can use more button with three dots to remove speakers from the group.</p>
+		<br/>
+		<h3>Should I allow incoming connections when asked by firewall?</h3>
+		<p>Yes, <i>Remote for Sonos</i> requires incoming connections to automatically discover your  speakers and to receive updates when their state changes (like volume, playback, source).</p>
+		<br/>
+		<h3>One of my speakers state does not change in the app but it should.</h3>
+		<p>Played song, volume, mute, etc. has changed but the related change is not visible in the app? Sometimes it happens and the best way to fix that is to restart affected speakers, either with <i>Reboot  speakers</i> option or by unplugging the speaker from the power source for a few seconds.</p>
+	</div>
+	<div class="column right">
+		<h2>Need help?</h2>
+		<hr/>
+		<h3><a href="mailto:support@dniklewicz.com?subject=Remote for Sonos (macOS) Support" id="supportEmail">Send me an Email</a></h3>
+		<p>Send me details of your issue, preferable with screenshot and any other data which can help me to deal with the problem as soon as we can.</p>
+	<div>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		Papseo: FAQ
+		</title>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+		.collapsible {
+			background-color: #555;
+			color: white;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+			font-weight: 500;
+		}
+
+		.active, .collapsible:hover {
+			background-color: #777;
+		}
+
+		.content {
+			padding: 0 18px;
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.2s ease-out;
+			background-color: #fff;
+			color: black;
+			font-weight: 400;
+		}
+
+		.collapsible:after {
+			content: '+'; /* Unicode character for "plus" sign (+) */
+			font-size: 15px;
+			color: #eeeeee;
+			float: right;
+			margin-left: 5px;
+		}
+
+		.active:after {
+			content: '-'; /* Unicode character for "minus" sign (-) */
+			color: #eeeeee;
+		}
+
+		#dark {
+			color: #111;
+			font-family: Avenir;
+			text-align: justify;
+		}
+
+		#prefix {
+			width: auto;
+			float: left;
+		}
+		#suffix {
+			width: 20px;
+			float: right;
+		}
+		</style>
+		<script type = "text/javascript">  
+			window.onload = function(){  
+			var today = new Date();
+			var dd = String(today.getUTCDate()).padStart(2, '0');
+			var mm = String(today.getUTCMonth() + 1).padStart(2, '0'); //January is 0!
+			var hour = String(today.getUTCHours()).padStart(2,'0');
+			var minutes = String(today.getUTCMinutes()).padStart(2,'0');
+			var yyyy = today.getUTCFullYear().toString().substr(-2);
+
+			var appName = "Papseo";
+			var issueNo = '#' + yyyy + mm + dd + hour + minutes;
+
+			document.getElementById("supportEmail").href = "mailto:support@dniklewicz.com?subject=" + appName + " Support " + issueNo; 
+			}  
+		</script>
+	</head>
+	<body>
+	<div id="container">
+	<div class="top">
+		<img src="./images/appicon.png" alt="logo"/>
+		<h1>Papseo</h1>
+	</div>
+	<div class="column left">
+		<h2><b>F</b>requently <b>A</b>sked <b>Q</b>uestions</h2>
+		<hr/>
+		<h2><b>In case of any problems please check if you have the newest version of Papseo app.</b></h2>
+		<br/>
+		<!-- Foldable FAQ -->
+		<button type="button" class="collapsible">What is item archivization?</button>
+		<div class="content">
+			<p id="dark">
+				When you archive an item, it is marked as closed and all dates are removed.
+				It is especially helpful if you want to preserve notes for the products which will be used again in the future.
+			</p>	
+		</div>
+	</div>
+	<div class="column right">
+		<h2>Need help?</h2>
+		<hr/>
+		<h3><a href="mailto:support@dniklewicz.com?subject=Papseo Support" id="supportEmail">Send me an Email</a></h3>
+		<p>Send me details of your issue, preferable with screenshot and any other data which can help me to deal with the problem as soon as we can.</p>
+		<br/>
+		<h3><a href="https://apps.dniklewicz.com/papseo/privacy.html">Privacy Policy</a></h3>
+	<div>
+	</div>
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				var coll2 = document.getElementsByClassName("collapsible");
+				var k;
+				for (k = 0; k < coll2.length; k++) {
+					if (coll2[k] === this) {
+						continue;
+					}
+					coll2[k].classList.remove("active");
+					coll2[k].nextElementSibling.style.maxHeight = null;
+				}
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight){
+					content.style.maxHeight = null;
+				} else {
+					content.style.maxHeight = content.scrollHeight + "px";
+				} 
+			});
+		}
+		</script>
+	</body>
+</html>

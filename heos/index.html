@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		Remote for HEOS: FAQ
+		</title>
+		<link rel="stylesheet" href="styles.css">
+		<script type = "text/javascript">  
+			window.onload = function(){  
+			var today = new Date();
+			var dd = String(today.getUTCDate()).padStart(2, '0');
+			var mm = String(today.getUTCMonth() + 1).padStart(2, '0'); //January is 0!
+			var hour = String(today.getUTCHours()).padStart(2,'0');
+			var minutes = String(today.getUTCMinutes()).padStart(2,'0');
+			var yyyy = today.getUTCFullYear().toString().substr(-2);
+
+			var appName = "Remote for HEOS";
+			var issueNo = '#' + yyyy + mm + dd + hour + minutes;
+
+			document.getElementById("supportEmail").href = "mailto:support@dniklewicz.com?subject=" + appName + " Support " + issueNo; 
+			}  
+			</script>
+	</head>
+	<body>
+	<div id="container">
+	<div class="top">
+		<img src="./images/appicon.png" alt="logo"/>
+		<h1>Remote for HEOS</h1>
+	</div>
+	<div class="column left">
+		<h2>Frequently Asked Questions</h2>
+		<hr/>
+		<h2><b>In case of any problems please check if you have the newest version.</b></h2>
+        <br/>
+        <h3>I launched the application but it does not display any window.</h3>
+        <p>Remote for HEOS does not display any window by default, but it adds an additional icon on the Mac's menu bar displayed on the top of the screen. After clicking it will display application's window.</p>
+        <a href="./images/baricon.png"><img src="./images/baricon.png" width="100%"/></a>
+        <br/>
+        <br/>
+		<h3 id="spotify">How to stream music from Spotify to HEOS on Mac?</h3>
+		<p>Open Spotify application on the Mac and select one of your speakers as shown on the image below.</p>
+		<a href="./images/spotify.jpg"><img src="./images/spotify.jpg" width="100%"/></a>
+		<br/>
+		<br/>
+		<h3>I cannot see my HEOS favorites, why?</h3>
+		<p>Open settings (small gear icon on the right bottom) and enter your HEOS account credentials. Application must be restarted after that action.</p>
+		<br/>
+		<h3>How can I group my speakers?</h3>
+		<p>Click GROUP icon next to the player and select another speaker from the drop down list.</p>
+		<br/>
+		<h3>Where are custom names of my groups?</h3>
+		<p>This functionality will be added soon.</p>
+		<br/>
+		<h3>Should I allow incoming connections when asked by firewall?</h3>
+		<p>Yes, <i>Remote for HEOS</i> requires incoming connections to automatically discover your HEOS speakers and to receive updates when their state changes (like volume, playback, source).</p>
+		<br/>
+		<h3>One of my speakers state does not change in the app but it should.</h3>
+		<p>Played song, volume, mute, etc. has changed but the related change is not visible in the app? Sometimes it happens and the best way to fix that is to restart affected speakers, either with <i>Reboot  speakers</i> option or by unplugging the speaker from the power source for a few seconds.</p>
+        <br/>
+        <h3  id="share">What is the current path format for configuring Network Share?</h3>
+        <p>HEOS uses Windows-style network path with backslashes like on the image below:</p>
+        <a href="./images/share.jpg"><img src="./images/share.jpg" width="50%"/></a>
+	</div>
+	<div class="column right">
+		<h2>Need help?</h2>
+		<hr/>
+		<h3><a href="mailto:support@dniklewicz.com?subject=Remote for HEOS Support" id="supportEmail">Contact Us</a></h3>
+		<p>Send us details of your issue, preferable with screenshot and any other data which can help us to deal with the problem as soon as we can.</p>
+	<div>
+	</div>
+	</body>
+</html>
