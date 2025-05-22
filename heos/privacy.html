@@ -1,52 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>
-		Remote for HEOS: Privacy Policy
-		</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Privacy Policy for Remote for HEOS app">
+		<link rel="icon" href="./images/appicon.png" type="image/png">
+		<title>Remote for HEOS: Privacy Policy</title>
 		<link rel="stylesheet" href="styles.css">
-		<script type = "text/javascript">  
-			window.onload = function(){  
-			var today = new Date();
-			var dd = String(today.getUTCDate()).padStart(2, '0');
-			var mm = String(today.getUTCMonth() + 1).padStart(2, '0'); //January is 0!
-			var hour = String(today.getUTCHours()).padStart(2,'0');
-			var minutes = String(today.getUTCMinutes()).padStart(2,'0');
-			var yyyy = today.getUTCFullYear().toString().substr(-2);
+		<script type="text/javascript">  
+			window.onload = function() {  
+				var today = new Date();
+				var dd = String(today.getUTCDate()).padStart(2, '0');
+				var mm = String(today.getUTCMonth() + 1).padStart(2, '0'); //January is 0!
+				var hour = String(today.getUTCHours()).padStart(2,'0');
+				var minutes = String(today.getUTCMinutes()).padStart(2,'0');
+				var yyyy = today.getUTCFullYear().toString().substr(-2);
 
-			var appName = "Remote for HEOS";
-			var issueNo = '#' + yyyy + mm + dd + hour + minutes;
+				var appName = "Remote for HEOS";
+				var issueNo = '#' + yyyy + mm + dd + hour + minutes;
 
-			document.getElementById("supportEmail").href = "mailto:support@dniklewicz.com?subject=" + appName + " Support " + issueNo; 
+				document.getElementById("supportEmail").href = "mailto:support@dniklewicz.com?subject=" + appName + " Support " + issueNo; 
 			}  
-		</script>  
+		</script>
 	</head>
 	<body>
-	<div id="container">
-	<div class="top">
-		<img src="./images/appicon.png" alt="logo"/>
-		<h1>Remote for HEOS</h1>
-	</div>
-	<div class="column left">
-		<h2><u>Privacy Policy</u></h2>
-        <br/>
-		<h3>What data is sent to and processed by any external service?</h3>
-		<p>None. <i>Remote for HEOS</i> is a standalone, zero-configuration application and is not connecting to any external servers. All data collected by the Application (like UPnP ip addresses and basic metadata) which is needed by <i>Remote for HEOS</i> to operate is stored locally on the user's Mac. Credentials for HEOS account entered in the app is stored in macOS keychain.</p>
-        <br/>
-        <h3>Email Support</h3>
-        <p>If you email us for support or other feedback, the emails with email addressess will be retained for quality assurance purposes. The email addresses will not be used for any marketing purpose. If you want to remove your support related emails, please send this request to the support.</p>
-        <br/>
-        <h3>Changes to This Policy</h3>
-        <p>
-        You are advised to review this policy periodically for any changes. By using Remote of HEOS app, you agree to this privacy policy.
-        </p>
-	</div>
-	<div class="column right">
-		<h2>Need help?</h2>
-		<hr/>
-		<h3><a href="mailto:support@dniklewicz.com?subject=Remote for HEOS Support" id="supportEmail">Send me an Email</a></h3>
-		<p>Send me details of your issue, preferable with screenshot and any other data which can help me to deal with the problem as soon as we can.</p>
-	<div>
-	</div>
+		<div class="site-header">
+			<header class="top">
+				<div class="header-content">
+					<a href="index.html" class="header-logo-link">
+						<img src="./images/appicon.png" alt="Remote for HEOS application icon" width="64" height="64"/>
+					</a>
+					<a href="index.html" class="header-title-link">
+						<h1>Remote for HEOS</h1>
+					</a>
+				</div>
+				<div class="header-actions">
+					<a href="https://apps.apple.com/us/app/remote-for-heos/id1382572478" class="mac-store-button" target="_blank" rel="noopener">
+						<img src="./images/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" 
+							alt="Download on the Mac App Store">
+					</a>
+				</div>
+			</header>
+		</div>
+		<div id="container">
+			<main class="content-wrapper">
+				<article class="column left">
+					<h2>Privacy Policy</h2>
+					<p class="last-updated">Last Updated: May 2025</p>
+					
+					<section class="privacy-section">
+						<h3>What data is sent to and processed by any external service?</h3>
+						<p>The app uses Sentry.io for crash reporting and performance monitoring. When a crash or error occurs, technical data about the error and your system configuration (such as macOS version, app version, and device model) is sent to Sentry. This data helps us identify and fix issues quickly. No personal information is collected through this process.</p>
+						<p>Beyond crash reporting, <i>Remote for HEOS</i> is a standalone, zero-configuration application and is not connecting to any other external servers. All data collected by the Application (like UPnP ip addresses and basic metadata) which is needed by <i>Remote for HEOS</i> to operate is stored locally on the user's Mac. Credentials for HEOS account entered in the app is stored in macOS keychain.</p>
+					</section>
+
+					<section class="privacy-section">
+						<h3>Data Retention</h3>
+						<p>Crash reports and performance data in Sentry are automatically deleted after 30 days. Support emails are retained for up to five years to ensure proper follow-up and quality of service. Local data stored on your Mac is retained until you uninstall the application.</p>
+					</section>
+
+					<section class="privacy-section">
+						<h3>Your Rights and Choices</h3>
+						<p>You have the right to:</p>
+						<ul class="privacy-list">
+							<li>Request deletion of your support communication history</li>
+							<li>Clear all local data by uninstalling the application</li>
+						</ul>
+					</section>
+
+					<section class="privacy-section">
+						<h3>Email Support</h3>
+						<p>If you email us for support or other feedback, the emails with email addresses will be retained for quality assurance purposes. The email addresses will not be used for any marketing purpose. If you want to remove your support related emails, please send this request to the support.</p>
+					</section>
+
+					<section class="privacy-section">
+						<h3>Contact About Privacy Concerns</h3>
+						<p>If you have any questions or concerns about this privacy policy or our data practices, please contact us at <a href="mailto:support@dniklewicz.com">support@dniklewicz.com</a>. We will respond to your inquiry within 5 business days.</p>
+					</section>
+
+					<section class="privacy-section">
+						<h3>Changes to This Policy</h3>
+						<p>You are advised to review this policy periodically for any changes. By using Remote for HEOS app, you agree to this privacy policy. When we make significant changes to this policy, we will notify you through an app update notification.</p>
+					</section>
+				</article>
+
+				<aside class="column right">
+					<h2>Need help?</h2>
+					<div class="help-content">
+						<p>Send us details of your issue, preferable with screenshot and any other data which can help us to deal with the problem as soon as we can.</p>
+						<a href="mailto:support@dniklewicz.com?subject=Remote for HEOS Support" 
+							id="supportEmail" 
+							class="contact-link"
+							aria-label="Contact Support">Contact Us</a>
+					</div>
+				</aside>
+			</main>
+		</div>
+		<footer class="site-footer">
+			<div class="footer-content">
+				<div class="footer-left">
+					<span class="copyright">© 2025 Dariusz Niklewicz. All rights reserved.</span>
+					<span class="trademark">HEOS is a registered trademark of D&M Holdings Inc.</span>
+				</div>
+				<div class="footer-links">
+					<a href="privacy.html">Privacy Policy</a>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
