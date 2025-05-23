@@ -152,6 +152,16 @@ header.top h1 {
     color: var(--app-color);
 }
 
+.important-notice.warning {
+    background: #fff3e0;
+    border-left-color: #ff9800;
+    color: #e65100;
+}
+
+.important-notice.warning h2 {
+    color: #e65100;
+}
+
 .important-notice h2 {
     font-weight: 500;
     font-size: 1.1rem;
