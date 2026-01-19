@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		UPS Power Monitor: Terms of Use
+		</title>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type = "text/javascript">  
+			window.onload = function(){  
+			var today = new Date();
+			var dd = String(today.getUTCDate()).padStart(2, '0');
+			var mm = String(today.getUTCMonth() + 1).padStart(2, '0');
+			var hour = String(today.getUTCHours()).padStart(2,'0');
+			var minutes = String(today.getUTCMinutes()).padStart(2,'0');
+			var yyyy = today.getUTCFullYear().toString().substr(-2);
+
+			var appName = "UPS Power Monitor (macOS)";
+			var issueNo = '#' + yyyy + mm + dd + hour + minutes;
+
+			document.getElementById("supportEmail").href = "mailto:support@dniklewicz.com?subject=" + appName + " Support " + issueNo; 
+			}  
+		</script>
+	</head>
+	<body>
+	<div id="container">
+	<div class="top">
+		<img src="./images/appicon.png" alt="logo"/>
+		<h1>UPS Power Monitor</h1>
+	</div>
+	<div class="column left">
+		<h2><u>Terms of Use</u></h2>
+		<p>These Terms of Use (&ldquo;Terms&rdquo;) govern your use of UPS Power Monitor for macOS, UPS Monitor for iOS, and related services provided by Dariusz Niklewicz (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;). By downloading or using the software you agree to these Terms. If you do not agree, do not install or use the applications.</p>
+		<br/>
+		<h3>1. Product Scope</h3>
+		<p>UPS Power Monitor can operate entirely offline (monitoring UPS systems over NUT) and optionally connect to the UPS Cloud Subscription to sync data through our AWS backend. The <a href="https://apps.dniklewicz.com/ups-mac/privacy.html">Privacy Policy</a> describes how data is handled in each mode.</p>
+		<br/>
+		<h3>2. UPS Cloud Beta Notice</h3>
+		<p><strong>UPS Cloud Subscription, including multi-device sync and push notifications, is currently offered as a beta service.</strong> Functionality, performance, and availability may change without notice. Features may be temporarily unavailable in specific App Store storefronts or regions. During beta, we may collect additional diagnostics to stabilize the service, and we may modify or discontinue beta functionality at any time. By enabling UPS Cloud you acknowledge these risks and agree that the service is provided on a best-effort basis.</p>
+		<br/>
+		<h3>3. Eligibility &amp; Accounts</h3>
+		<p>You must be at least 16 years old and capable of forming a binding contract. UPS Cloud requires Sign in with Apple; you are responsible for safeguarding your Apple ID. You may not share credentials or allow unauthorized access.</p>
+		<br/>
+		<h3>4. License Grant</h3>
+		<p>We grant you a non-exclusive, non-transferable license to install and use UPS Power Monitor for personal, household, or prosumer environments. You may not reverse engineer, redistribute, or modify the software except where allowed by mandatory law.</p>
+		<br/>
+		<h3>5. Local Credentials &amp; Security</h3>
+		<p>How UPS Power Monitor stores and protects network credentials, including optional NUT usernames/passwords, is described in the <a href="https://apps.dniklewicz.com/ups-mac/privacy.html">Privacy Policy</a>. You remain responsible for securing the networks and devices that UPS Power Monitor manages and for configuring macOS or iCloud Keychain according to your needs.</p>
+		<br/>
+		<h3>6. Subscriptions &amp; Billing</h3>
+		<p>UPS Cloud Subscription is billed through the Apple App Store. All payments, renewals, cancellations, and refunds are handled by Apple under their terms. We may change subscription pricing or tiers; changes will apply to future periods as communicated by Apple.</p>
+		<br/>
+		<h3>7. Acceptable Use</h3>
+		<p>You agree not to misuse the software or cloud services, including attempting to breach security, probe AWS infrastructure, spam push notifications, or monitor UPS systems you do not own or have permission to manage. We may suspend or terminate access for violations.</p>
+		<br/>
+		<h3>8. Third-Party Services</h3>
+		<p>The applications integrate with Apple (Sign in with Apple, App Store billing), Amazon Web Services (Cognito, AppSync, DynamoDB, Lambda, SNS, CloudWatch, CloudFront), Mixpanel (usage analytics), and Sentry (crash diagnostics). Your use of third-party services is subject to their terms and policies.</p>
+		<br/>
+		<h3>9. Disclaimer of Warranties</h3>
+		<p>The software and UPS Cloud beta are provided &ldquo;as is&rdquo; without warranties of any kind. We do not guarantee uninterrupted operation, data accuracy, or prevention of power-related damage. You assume all risk arising from use.</p>
+		<br/>
+		<h3>10. Limitation of Liability</h3>
+		<p>To the fullest extent permitted by law, our total liability for any claim arising from the software or services shall not exceed the amount you paid for the subscription during the twelve months preceding the claim. We are not liable for indirect, incidental, consequential, or punitive damages.</p>
+		<br/>
+		<h3>11. Termination</h3>
+		<p>You may stop using the software at any time. We may suspend or terminate access to UPS Cloud for breach of these Terms, for security reasons, or when discontinuing beta services. You may delete your UPS Cloud account within the application to remove synced data.</p>
+		<br/>
+		<h3>12. Changes to Terms</h3>
+		<p>We may update these Terms as features evolve. The latest version is posted on this page and the &ldquo;Last updated&rdquo; date reflects the revision. Continued use after changes become effective constitutes acceptance.</p>
+		<br/>
+		<h3>13. Contact</h3>
+		<p>Questions about these Terms may be sent to <a href="mailto:support@dniklewicz.com">support@dniklewicz.com</a> or via the in-app support form.</p>
+	</div>
+	<div class="column right">
+		<h2>Need help?</h2>
+		<hr/>
+		<h3><a href="mailto:support@dniklewicz.com?subject=UPS Power Monitor Support" id="supportEmail">Send me an Email</a></h3>
+		<p>Send me details of your issue, preferable with screenshot and any other data which can help me to deal with the problem as soon as we can.</p>
+	<div>
+	</div>
+	</body>
+</html>
