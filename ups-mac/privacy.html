@@ -29,15 +29,78 @@
 	</div>
 	<div class="column left">
 		<h2><u>Privacy Policy</u></h2>
-        <br/>
-		<h3>What data is sent to and processed by any external service?</h3>
-		<p>None. UPS Power Monitor is a standalone application and is not uploading data to any external servers by itself. All data collected by the Application (like device's ip addresses and basic metadata) which is needed by UPS Power Monitor to operate is stored locally on user's Mac.</p>
-        <br/>
-        <h3>Email Support</h3>
-        <p>If you email us for support or other feedback, the emails with email addressess will be retained for quality assurance purposes. The email addresses will not be used for any marketing purpose. If you want to remove your support related emails, please send this request to the support.</p>
-        <br/>
-        <h3>Changes to This Policy</h3>
-        <p>You are advised to review this policy periodically for any changes. By using UPS Power Monitor app, you agree to this privacy policy.</p>
+			<p>UPS Power Monitor can be used entirely offline on your Mac or paired with the optional UPS Cloud Subscription that synchronizes data through our AWS backend. Designed for enthusiasts who run sophisticated setups at home or in small offices. This policy explains what information is handled in each scenario and how it is protected.</p>
+		<br/>
+		<h3>How the App Can Be Used</h3>
+		<ul>
+			<li><strong>Local Monitoring (default)</strong> &ndash; all UPS configurations and NUT related data remain on your device and never leave your network.</li>
+			<li><strong>UPS Cloud Subscription (optional)</strong> &ndash; authenticated users can sync UPS telemetry, enable multi-device monitoring, and receive push notifications via AWS services running in the eu-west-1 (Ireland) region.</li>
+		</ul>
+		<br/>
+		<h3>Data Stored Locally on Your Mac</h3>
+			<p>When you stay offline, the application keeps the following inside your macOS sandbox and Keychain: UPS IP addresses or hostnames, ports, friendly names, monitoring preferences, cached telemetry, and optional NUT usernames/passwords. This information is never transmitted unless you explicitly enable cloud sync. NUT passwords are never uploaded to the cloud and stay solely in your local Keychain (or iCloud Keychain if you have that system feature enabled). If iCloud Keychain sync is disabled, each additional Mac must be authenticated manually with the protected NUT server. Removing an UPS profile deletes its associated local cache.</p>
+		<br/>
+		<h3>Data Processed via UPS Cloud Subscription</h3>
+		<p>If you sign in with Apple and activate the cloud subscription, we store the minimum data required to provide remote access, shared monitoring, and push notifications:</p>
+		<ul>
+			<li><strong>Account data</strong> &ndash; Apple provides an identifier and the email address you approve (which may be an Apple relay address). These details are held in AWS Cognito to authenticate you. We do not receive your Apple password.</li>
+			<li><strong>UPS metadata</strong> &ndash; device IDs, friendly names, configured IP addresses, monitored ports, NUT usernames (no passwords), manufacturer/model info, and monitoring preferences so that other signed-in devices know what to manage.</li>
+			<li><strong>Telemetry</strong> &ndash; current UPS status strings, selected parameter history, last update timestamps, and which monitoring Mac performed the upload. This enables charts, staleness detection, and cross-device status views.</li>
+			<li><strong>Protected device information</strong> &ndash; optional shutdown rules you define (device names, IP addresses, trigger thresholds) so that automation policies can be enforced centrally.</li>
+			<li><strong>Device registration data</strong> &ndash; push notification tokens, platform type (iOS/macOS), friendly device name, app version, and limited delivery statistics so we can notify you about outages. Tokens automatically expire when inactive or when you revoke notifications.</li>
+			<li><strong>Monitoring diagnostics</strong> &ndash; AWS stores short-lived records about stale intervals (when a UPS goes offline and when it recovers). These records expire automatically after one year to provide auditability without building long-term profiles.</li>
+		</ul>
+		<p>Cloud data is encrypted at rest by AWS services and in transit via TLS. We do not collect payment card data&mdash;Apple handles all App Store transactions.</p>
+		<br/>
+		<h3>Diagnostics &amp; Analytics</h3>
+		<p>To make sure the experience stays reliable for prosumers, the macOS apps send limited diagnostics to two processors:</p>
+		<ul>
+			<li><strong>Mixpanel</strong> records anonymous usage events (feature toggles, screen views, subscription conversion) alongside device model, macOS version, and app build. Events are tagged with a random identifier, not your name or email.</li>
+			<li><strong>Sentry</strong> captures crash reports and non-sensitive logs to help us debug issues. Reports contain stack traces, device model, OS version, and app state metadata but never include UPS passwords or raw telemetry.</li>
+		</ul>
+		<p>You can opt out by disabling analytics in the application settings; when disabled, Mixpanel and Sentry receive no new events from that device.</p>
+		<br/>
+		<h3>Authentication, Billing, and Support</h3>
+		<ul>
+			<li><strong>Sign in with Apple</strong> is required only for UPS Cloud features. You can revoke access at any time from your Apple ID settings.</li>
+			<li><strong>Subscriptions</strong> are managed by Apple. We receive only the entitlement state (active, expired, in trial) from StoreKit; no credit card numbers are ever shared with us.</li>
+			<li><strong>Email support</strong> &ndash; if you email <a href="mailto:support@dniklewicz.com">support@dniklewicz.com</a> we retain your message for troubleshooting and quality assurance. Send us another email if you want previous conversations removed.</li>
+		</ul>
+		<br/>
+		<h3>How We Use Your Data</h3>
+		<ul>
+			<li>Provide UPS monitoring, charts, and notifications across your signed-in devices.</li>
+			<li>Verify subscription eligibility and entitlement to enable or disable cloud-only features.</li>
+			<li>Deliver push notifications about UPS staleness or recovery events that you have enabled.</li>
+			<li>Maintain platform security, abuse prevention, and operational logs within AWS CloudWatch.</li>
+		</ul>
+		<p>We do not sell or rent your information and we do not run third-party analytics or advertising SDKs.</p>
+		<br/>
+		<h3>Push Notifications</h3>
+		<p>Notifications include the UPS name you configured and a short status message (for example “UPS Offline: Home Office UPS”). Device tokens are stored in AWS SNS solely to deliver these alerts and are removed automatically when you sign out, disable notifications, or after extended inactivity.</p>
+		<br/>
+		<h3>Sharing &amp; Service Providers</h3>
+		<p>Your data is shared only with vendors that help operate UPS Power Monitor: Apple (App Store billing and Sign in with Apple), Amazon Web Services (Cognito, AppSync, DynamoDB, Lambda, SNS, CloudWatch, CloudFront), Mixpanel (usage analytics), and Sentry (crash diagnostics). These processors act on our behalf under their own security certifications. We may disclose information if required by law or to investigate abuse.</p>
+		<br/>
+		<h3>Data Retention & Deletion</h3>
+		<ul>
+			<li>Local-only users can delete UPS profiles or uninstall the app to remove local data.</li>
+			<li>Cloud users can remove an individual UPS, disable push notifications, or delete their entire UPS Cloud account (Settings → UPS Cloud Account → Delete Account). This triggers server-side deletion of your UPS records, parameters, protected devices, device tokens, and Cognito identity.</li>
+			<li>Staleness history and CloudWatch logs are pruned automatically based on operational retention policies (currently up to 12 months).</li>
+		</ul>
+		<p>You may also request deletion or a copy of your cloud data by emailing support with the Apple ID used in the app.</p>
+		<br/>
+		<h3>Security</h3>
+		<p>We use macOS Keychain for sensitive local secrets, enforce TLS for every network request, restrict access through AWS IAM policies, and monitor the infrastructure for unauthorized access. Despite these safeguards, no system is 100% secure, so please keep your devices updated and protected.</p>
+		<br/>
+		<h3>Your Rights</h3>
+		<p>Depending on your jurisdiction you may have rights to access, correct, delete, or object to the processing of your personal data. Contact us at <a href="mailto:support@dniklewicz.com">support@dniklewicz.com</a> to exercise these rights. We may need to verify ownership of the Apple ID associated with your account.</p>
+		<br/>
+		<h3>Children’s Privacy</h3>
+			<p>UPS Power Monitor is intended for prosumers and professional/home IT users and is not directed to children under 16. We do not knowingly collect personal data from children.</p>
+		<br/>
+		<h3>Changes to This Policy</h3>
+		<p>We may update this policy as the product evolves. The latest version is always available on this page, and material changes will be communicated inside the application. Continued use of UPS Power Monitor after changes become effective constitutes acceptance of the updated policy.</p>
 	</div>
 	<div class="column right">
 		<h2>Need help?</h2>
